@@ -1,0 +1,2984 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 101.200.77.107 (MySQL 5.6.14-log)
+- Database: learn_job
+- Generation Time Time: 2016-05-14 11:01:35 +0000
+-
+-->
+
+<resultset statement="SELECT * FROM `country` LIMIT 0,30000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="id">1</field>
+		<field name="continent_id">3</field>
+		<field name="name">Cameroon</field>
+		<field name="lower_name">the republic of cameroon</field>
+		<field name="country_code">CMR</field>
+		<field name="full_name">the Republic of Cameroon</field>
+		<field name="cname">喀麦隆</field>
+		<field name="full_cname">喀麦隆共和国</field>
+		<field name="remark">喀麦隆共和国（法语：République du Cameroun）通称喀麦隆，是位于非洲中西部的单一制共和国，西方与尼日利亚接壤，东北与东边分别和乍得与中非相靠，南方则与赤道几内亚、加蓬及刚果共和国毗邻。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">2</field>
+		<field name="continent_id">3</field>
+		<field name="name">Benin</field>
+		<field name="lower_name">the republic of benin </field>
+		<field name="country_code">BEN</field>
+		<field name="full_name">the Republic of Benin </field>
+		<field name="cname">贝宁</field>
+		<field name="full_cname">贝宁共和国</field>
+		<field name="remark">贝宁全称：贝宁共和国（法语República Popular do Benin,La République du Bénin）是位于西非中南部的国家，旧名达荷美（Dahomey），前法国殖民地，贝宁（Benin）南濒几内亚湾，东邻尼日利亚，北与尼日尔接壤，西北与布基纳法索相连，西和多哥接壤，海岸线长125公里。全境南北狭长，南窄北宽。南部沿海为宽约100公里的平原。中部为海拔200－400米波状起伏的高原。西北部的阿塔科拉山海拔641米，为全国最高点。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">3</field>
+		<field name="continent_id">3</field>
+		<field name="name">Madagascar</field>
+		<field name="lower_name">the republic of madagascar </field>
+		<field name="country_code">MDG</field>
+		<field name="full_name">the Republic of Madagascar </field>
+		<field name="cname">马达加斯加</field>
+		<field name="full_cname">马达加斯加共和国</field>
+		<field name="remark">马达加斯加全称马达加斯加共和国，非洲岛国，位于印度洋西部，隔莫桑比克海峡与非洲大陆相望，全岛由火山岩构成。作为非洲第一、世界第四大的岛屿，马达加斯加旅游资源丰富，上世纪90年代以来，该国政府将旅游业列为重点发展行业，鼓励外商向旅游业投资。居民中98%是马达加斯加人。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">4</field>
+		<field name="continent_id">3</field>
+		<field name="name">Rwanda</field>
+		<field name="lower_name">the republic of rwanda</field>
+		<field name="country_code">RWA</field>
+		<field name="full_name">the Republic of Rwanda</field>
+		<field name="cname">卢旺达</field>
+		<field name="full_cname">卢旺达共和国</field>
+		<field name="remark">卢旺达（Republika y'u Rwanda） 是非洲中东部的一个国家，全称卢旺达共和国，位于非洲中东部赤道南侧，内陆国家。东邻坦桑尼亚，南连布隆迪，西和西北与刚果（金）交界，北与乌干达接壤，国土面积26338平方公里。境内多山，有“千丘之国”的称谓。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">5</field>
+		<field name="continent_id">3</field>
+		<field name="name">Seychelles</field>
+		<field name="lower_name">the republic of seychelles</field>
+		<field name="country_code">SYC</field>
+		<field name="full_name">the Republic of Seychelles</field>
+		<field name="cname">塞舌尔</field>
+		<field name="full_cname">塞舌尔共和国</field>
+		<field name="remark">塞舌尔，全名塞舌尔共和国，是坐落在东部非洲印度洋上的一个群岛国家。1976年6月29日塞舌尔宣告独立，成立塞舌尔共和国，属英联邦成员。全境半数地区为自然保护区，享有“旅游者天堂”的美誉。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">6</field>
+		<field name="continent_id">3</field>
+		<field name="name">Cote d'lvoire</field>
+		<field name="lower_name">the republic of cote d'ivoire</field>
+		<field name="country_code">CIV</field>
+		<field name="full_name">the Republic of Cote d'ivoire</field>
+		<field name="cname">科特迪瓦</field>
+		<field name="full_cname">科特迪瓦共和国</field>
+		<field name="remark">科特迪瓦（Coate d'Ivoire）全名科特迪瓦共和国（The Republic of Côte d'Ivoire, La République de Côte d'Ivoire ），科特迪瓦在法语的意思是“象牙的海岸”，应该国政府要求，中华人民共和国用音译名为科特迪瓦。联合国自1985年12月31日起使用此音译名。是西非国家，与加纳、利比里亚、几内亚、马里和布基纳法索相邻。海岸线长约500公里。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">7</field>
+		<field name="continent_id">3</field>
+		<field name="name">Egypt</field>
+		<field name="lower_name">the arab republic of egypt </field>
+		<field name="country_code">EGY</field>
+		<field name="full_name">the Arab Republic of Egypt </field>
+		<field name="cname">埃及</field>
+		<field name="full_cname">阿拉伯埃及共和国</field>
+		<field name="remark">埃及既是亚、非之间的陆地交通要冲，也是大西洋于印度洋之间海上航线的捷径，战略位置十分重要。埃及是中东人口最多的国家，也是非洲人口第二大国，在经济、科技领域方面长期处于非洲领先态势。也是一个非洲的强国，是非洲第三大经济体</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">8</field>
+		<field name="continent_id">3</field>
+		<field name="name">Mauritius</field>
+		<field name="lower_name">the republic of mauritius</field>
+		<field name="country_code">MUS</field>
+		<field name="full_name">the Republic of Mauritius</field>
+		<field name="cname">毛里求斯</field>
+		<field name="full_cname">毛里求斯共和国</field>
+		<field name="remark">毛里求斯共和国为非洲东部一岛国，位于印度洋西南方，距马达加斯加约800公里，与非洲大陆相距2,200公里。作为火山岛国，毛里求斯四周被珊瑚礁环绕，岛上地貌千姿百态，沿海是狭窄平原，中部是高原山地，有多座山脉和孤立的山峰。整个国土由毛里求斯岛和其他小群岛组成，经历荷兰、法国和英国等国殖民统治后，于1968年3月12日脱离英国殖民获得独立，岛上亦有不少华人。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">9</field>
+		<field name="continent_id">3</field>
+		<field name="name">Burkina Faso</field>
+		<field name="lower_name">burkina faso</field>
+		<field name="country_code">BFA</field>
+		<field name="full_name">Burkina Faso</field>
+		<field name="cname">布基纳法索</field>
+		<field name="full_cname">布基纳法索</field>
+		<field name="remark">布基纳法索（法语:Burkina Faso）是位于非洲西部沃尔特河上游的内陆国。东邻贝宁、尼日尔，南与科特迪瓦、加纳、多哥交界，西、北与马里接壤。全境大部地区为内陆高原，地势平坦，自北向南徐缓倾斜，平均海拔不到300米；北部接近撒哈拉沙漠，西南部奥罗达拉地区地势较高；纳库鲁峰海拔749米，为全国最高点。主要河流有穆温河、纳康伯河和纳齐农河。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">10</field>
+		<field name="continent_id">3</field>
+		<field name="name">Eritrea</field>
+		<field name="lower_name">the commonwealth of eritrea</field>
+		<field name="country_code">ERI</field>
+		<field name="full_name">the Commonwealth of Eritrea</field>
+		<field name="cname">厄立特里亚</field>
+		<field name="full_cname">厄立特里亚国</field>
+		<field name="remark">厄立特里亚位于非洲东北部，西邻苏丹共和国，南邻埃塞俄比亚、吉布提，东隔红海与沙特阿拉伯和也门相望，扼红海进出印度洋的门户，地理位置十分重要。全国海岸线长1200公里</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">11</field>
+		<field name="continent_id">3</field>
+		<field name="name">Sao Tome and Principe</field>
+		<field name="lower_name">the democratic republic sao tome and principe</field>
+		<field name="country_code">STP</field>
+		<field name="full_name">the Democratic Republic Sao Tome and Principe</field>
+		<field name="cname">圣多美和普林西比</field>
+		<field name="full_cname">圣多美和普林西比民主共和国</field>
+		<field name="remark">圣多美和普林西比民主共和国（葡萄牙语：República Democrática de São Tomé e Príncipe）位于非洲中西部几内亚湾，由圣多美岛、普林西比岛和附近一些礁屿组成，两岛都是火山岛，属热带雨林气候</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">12</field>
+		<field name="continent_id">3</field>
+		<field name="name">Angola</field>
+		<field name="lower_name">the republic of angola</field>
+		<field name="country_code">AGO</field>
+		<field name="full_name">the Republic of Angola</field>
+		<field name="cname">安哥拉</field>
+		<field name="full_cname">安哥拉共和国</field>
+		<field name="remark">安哥拉位于非洲西南部，首都罗安达，西滨大西洋，北及东北邻刚果民主共和国，南邻纳米比亚，东南邻赞比亚，另有一块外飞地卡宾达省与刚果共和国、刚果民主共和国相邻。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">13</field>
+		<field name="continent_id">3</field>
+		<field name="name">Libyan Arab Jm</field>
+		<field name="lower_name">state of libya</field>
+		<field name="country_code">LBY</field>
+		<field name="full_name">State of Libya</field>
+		<field name="cname">利比亚</field>
+		<field name="full_cname">利比亚国</field>
+		<field name="remark">利比亚（全称利比亚国，阿拉伯语：دولة ليبيا‎‎，英语：State of Libya）是北非的一个国家，位于地中海南岸，与埃及、苏丹、乍得、尼日尔、阿尔及利亚跟突尼斯相邻。面积1759541平方公里。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">14</field>
+		<field name="continent_id">3</field>
+		<field name="name">Zimbabwe</field>
+		<field name="lower_name">the republic of zimbabwe</field>
+		<field name="country_code">ZWE</field>
+		<field name="full_name">the Republic of Zimbabwe</field>
+		<field name="cname">津巴布韦</field>
+		<field name="full_cname">津巴布韦共和国</field>
+		<field name="remark">津巴布韦共和国，是非洲南部的内陆国家，1980年4月18日独立建国。津巴布韦在1980年之前原本称为罗得西亚，这名字源自于替英国在这地区建立殖民地的塞西尔·罗兹。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">15</field>
+		<field name="continent_id">3</field>
+		<field name="name">Guinea</field>
+		<field name="lower_name">the republic of guinea</field>
+		<field name="country_code">GIN</field>
+		<field name="full_name">The Republic of Guinea</field>
+		<field name="cname">几内亚</field>
+		<field name="full_cname">几内亚共和国</field>
+		<field name="remark">几内亚共和国（The Republic of Guinea），简称几内亚，来源于柏柏尔语，意为“黑人的国家”，位于西非西岸，北邻几内亚比绍、塞内加尔和马里，东与科特迪瓦、南与塞拉利昂和利比里亚接壤，西濒大西洋。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">16</field>
+		<field name="continent_id">3</field>
+		<field name="name">Sierra Leone</field>
+		<field name="lower_name">the republic of sierra leone</field>
+		<field name="country_code">SLE</field>
+		<field name="full_name">The Republic of Sierra Leone</field>
+		<field name="cname">塞拉利昂</field>
+		<field name="full_cname">塞拉利昂共和国</field>
+		<field name="remark">塞拉利昂共和国位于西非大西洋岸，北部及东部被几内亚包围、东南与利比里亚接壤，首都弗里敦。台湾译为狮子山共和国，中国大陆和香港译为塞拉利昂共和国。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">17</field>
+		<field name="continent_id">3</field>
+		<field name="name">Reunion</field>
+		<field name="lower_name">reunion island</field>
+		<field name="country_code">REU</field>
+		<field name="full_name">Reunion Island</field>
+		<field name="cname">留尼汪</field>
+		<field name="full_cname">留尼汪岛</field>
+		<field name="remark">留尼汪岛（l'île de la Reunion）面积2512平方公里， 人口840974人（2013年）。居民主要为马达加斯加人、非洲人、欧洲人、印度人、华人、巴基斯坦人和克里奥尔人。官方语言是法语。94%的居民信奉天主教，少数人信仰伊斯兰教、印度教、佛教。首府圣但尼（Saint-Denis)，人口132338人（1999年）。行政区域分为4个专区（无实权），24个市镇。货币欧元</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">18</field>
+		<field name="continent_id">3</field>
+		<field name="name">Gabon</field>
+		<field name="lower_name">the gabonese republic</field>
+		<field name="country_code">GAB</field>
+		<field name="full_name">The Gabonese Republic</field>
+		<field name="cname">加蓬</field>
+		<field name="full_cname">加蓬共和国</field>
+		<field name="remark">加蓬共和国位于非洲中部西海岸，横跨赤道线。东、南与刚果相连，北与喀麦隆接壤，西北与赤道几内亚毗邻，西濒大西洋，海岸线长800公里。自从1960年8月17日脱离法国统治独立以来，加蓬共和国共经历了3届总统的统治。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">19</field>
+		<field name="continent_id">3</field>
+		<field name="name">Ghana</field>
+		<field name="lower_name">the republic of ghana</field>
+		<field name="country_code">GHA</field>
+		<field name="full_name">The Republic of Ghana</field>
+		<field name="cname">加纳</field>
+		<field name="full_cname">加纳共和国</field>
+		<field name="remark">加纳是非洲西部的一个国家，位于非洲西部、几内亚湾北岸，西邻科特迪瓦，北接布基纳法索，东毗多哥，南濒大西洋，海岸线长约562公里。地形南北长、东西窄。全境大部地区为平原，东部有阿克瓦皮姆山脉，南部有夸胡高原，北部有甘巴加陡崖。最高峰杰博博山海拔876米。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">20</field>
+		<field name="continent_id">3</field>
+		<field name="name">Tanzania</field>
+		<field name="lower_name">the united republic of tanzania</field>
+		<field name="country_code">TZA</field>
+		<field name="full_name">The United Republic of Tanzania</field>
+		<field name="cname">坦桑尼亚</field>
+		<field name="full_cname">坦桑尼亚联合共和国</field>
+		<field name="remark">坦桑尼亚全称：坦桑尼亚联合共和国（英文：The United Republic of Tanzania）。位于非洲东部、赤道以南。英联邦成员国之一。北与肯尼亚和乌干达交界，南与赞比亚、马拉维、莫桑比克接壤，西与卢旺达、布隆迪和刚果（金）为邻，东临印度洋。国土面积945087平方公里，截止2013年全国总人口4490万人。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">21</field>
+		<field name="continent_id">3</field>
+		<field name="name">Mali</field>
+		<field name="lower_name">the republic of mali</field>
+		<field name="country_code">MLI</field>
+		<field name="full_name">The Republic of Mali</field>
+		<field name="cname">马里</field>
+		<field name="full_cname">马里共和国</field>
+		<field name="remark">马里共和国（République du Mali）是西非的一个内陆国家，向北与阿尔及利亚、向东与尼日尔、向南与布基纳法索和科特迪瓦、向西南与几内亚、向西与毛里塔尼亚和塞内加尔接壤，是西非面积第二大的国家。它的北部边界在撒哈拉沙漠的中心，大多数人集中在南部，尼日尔河和塞内加尔河源于这里。马里过去也被称为法属苏丹，它的名字来源于马里帝国。马里国家面积的2%是农用地，同时80%的劳动力在农业工作。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">22</field>
+		<field name="continent_id">3</field>
+		<field name="name">Somalia</field>
+		<field name="lower_name">the somalia democratic republic</field>
+		<field name="country_code">SOM</field>
+		<field name="full_name">The Somalia Democratic Republic</field>
+		<field name="cname">索马里</field>
+		<field name="full_cname">索马里联邦共和国</field>
+		<field name="remark">索马里联邦共和国位于非洲大陆最东部的索马里半岛，拥有非洲最长的海岸线，总面积637660平方公里</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">23</field>
+		<field name="continent_id">3</field>
+		<field name="name">Mauritania</field>
+		<field name="lower_name">the islamic republic of mauritania</field>
+		<field name="country_code">MRT</field>
+		<field name="full_name">The Islamic Republic of Mauritania</field>
+		<field name="cname">毛里塔尼亚</field>
+		<field name="full_cname">毛里塔尼亚伊斯兰共和国</field>
+		<field name="remark">毛里塔尼亚位于非洲西北部，地处北纬15～27度之间，面积103.07万平方公里。毛搭西濒大西洋，北部与西撒哈拉和阿尔及利亚接壤西，东南部与马里为邻，南与塞内加尔相望。地区属热带沙漠性气候，全境地势平坦。有2/3的地区是沙漠</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">24</field>
+		<field name="continent_id">3</field>
+		<field name="name">Uganda</field>
+		<field name="lower_name">the republic of uganda</field>
+		<field name="country_code">UGA</field>
+		<field name="full_name">The Republic of Uganda</field>
+		<field name="cname">乌干达</field>
+		<field name="full_cname">乌干达共和国</field>
+		<field name="remark">乌干达，位于非洲东部，横跨赤道，东邻肯尼亚，南接坦桑尼亚和卢旺达，西接刚果（金），北连南苏丹，总面积24.15万平方公里。全境大部位于东非高原，多湖，平均海拔1000~1200米，有“高原水乡”之称。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">25</field>
+		<field name="continent_id">3</field>
+		<field name="name">Chad</field>
+		<field name="lower_name">the republic of chad</field>
+		<field name="country_code">TCD</field>
+		<field name="full_name">The Republic of Chad</field>
+		<field name="cname">乍得</field>
+		<field name="full_cname">乍得共和国</field>
+		<field name="remark">乍得（或译查德，阿拉伯语：تشاد‎，法语：Tchad），全称乍得共和国，是非洲中部的一个内陆国家，北接利比亚，东接苏丹，南接中非共和国，西南与喀麦隆、尼日利亚为邻，西与尼日尔交界。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">26</field>
+		<field name="continent_id">3</field>
+		<field name="name">Mayotte</field>
+		<field name="lower_name">territorial collectivity of mayotte</field>
+		<field name="country_code">MYT</field>
+		<field name="full_name">Territorial Collectivity of Mayotte</field>
+		<field name="cname">马约特岛</field>
+		<field name="full_cname">马约特岛</field>
+		<field name="remark">马约特岛（Mayotte ）曾经为法国的一个集体领地，全称为马约特集体领地(Territorial Collectivity of Mayotte, 法语作Collectivite Territoriale de Mayotte)，亦称马奥霍(Mahore)，现为法国的一个海外大区（海外省）。位于莫桑比克海峡，与大科摩罗岛、昂儒昂岛、莫埃利岛共同组成科摩罗群岛。面积为374平方公里，居民约18万人，经济以农业为主，主要生产香子兰等香料，是法国的海外领地之一，马约特岛包括大陆地岛、小陆地岛以及周围一些小岛，首府和最大城市马穆楚。岛屿也被临近的东非印度洋岛国科摩罗宣称所有，但由法国实际控制。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">27</field>
+		<field name="continent_id">3</field>
+		<field name="name">Comoros</field>
+		<field name="lower_name">union of comoros</field>
+		<field name="country_code">COM</field>
+		<field name="full_name">Union of Comoros</field>
+		<field name="cname">科摩罗</field>
+		<field name="full_cname">科摩罗联盟</field>
+		<field name="remark">科摩罗被称月亮之国、香料之国，是非洲一个位于印度洋上的岛国，位于非洲东侧莫桑比克海峡北端入口处，东、西距马达加斯加和莫桑比克各约300公里。组成科摩罗的大科摩罗岛、昂儒昂岛、莫埃利岛和马约特岛被誉为西印度洋上的四颗明珠。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">28</field>
+		<field name="continent_id">3</field>
+		<field name="name">Botswana</field>
+		<field name="lower_name">the republic of botswana</field>
+		<field name="country_code">BWA</field>
+		<field name="full_name">The Republic of Botswana</field>
+		<field name="cname">博茨瓦纳</field>
+		<field name="full_cname">博茨瓦纳共和国</field>
+		<field name="remark">博兹瓦纳（英文名：Botswana）又译为波札那，正式全名为博茨瓦纳共和国，是位于非洲南部的内陆国。
+全国国境皆为干燥的台地地形，南邻南非，西边为纳米比亚，东北与津巴布韦接壤，其国土北端只有在维多利亚瀑布附近与赞比亚接触到些许。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">29</field>
+		<field name="continent_id">3</field>
+		<field name="name">Senegal</field>
+		<field name="lower_name">the republic of senegal</field>
+		<field name="country_code">SEN</field>
+		<field name="full_name">the Republic of Senegal</field>
+		<field name="cname">塞内加尔</field>
+		<field name="full_cname">塞内加尔共和国</field>
+		<field name="remark">塞内加尔位于非洲西部凸出部位的最西端，首都达喀尔。北接毛里塔尼亚，东邻马里，南接几内亚和几内亚比绍，西临佛得角群岛。海岸线长约700公里。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">30</field>
+		<field name="continent_id">3</field>
+		<field name="name">Swaziland</field>
+		<field name="lower_name">the kingdom of swaziland</field>
+		<field name="country_code">SWZ</field>
+		<field name="full_name">The Kingdom of Swaziland</field>
+		<field name="cname">斯威士兰</field>
+		<field name="full_cname">斯威士兰王国</field>
+		<field name="remark">斯威士兰，位于非洲东南部为内陆国家，北、西、南三面为南非所环抱，东与莫桑比克为邻。地处南非高原东南边缘德拉肯斯山脉的东坡。
+</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">31</field>
+		<field name="continent_id">3</field>
+		<field name="name">Guinea Bissau</field>
+		<field name="lower_name">the republic of guinea-bissau</field>
+		<field name="country_code">GNB</field>
+		<field name="full_name">The Republic of Guinea-Bissau</field>
+		<field name="cname">几内亚比绍</field>
+		<field name="full_cname">几内亚比绍共和国</field>
+		<field name="remark">几内亚比绍共和国是位于北大西洋沿岸的西非国家。[1]  几内亚比绍北邻塞内加尔，东方、南方邻几内亚，西邻大西洋。首都是比绍。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">32</field>
+		<field name="continent_id">3</field>
+		<field name="name">DR Congo</field>
+		<field name="lower_name">democratic republic of the congo</field>
+		<field name="country_code">COD</field>
+		<field name="full_name">Democratic Republic of the Congo</field>
+		<field name="cname">民主刚果</field>
+		<field name="full_cname">刚果民主共和国</field>
+		<field name="remark">刚果民主共和国（法语：République démocratique du Congo）是非洲中部的一个国家，旧称为扎伊尔（法语：Zaïre），首都为金沙萨。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">33</field>
+		<field name="continent_id">3</field>
+		<field name="name">Central African</field>
+		<field name="lower_name">the central african republic</field>
+		<field name="country_code">CAF</field>
+		<field name="full_name">The Central African Republic</field>
+		<field name="cname">中非</field>
+		<field name="full_cname">中非共和国</field>
+		<field name="remark">中非共和国（The Central African Republic），简称中非，是指非洲大陆中部的内陆国家。面积62.2万平方公里，东与苏丹交界，南同刚果（布）和刚果（金）接壤，西与喀麦隆毗连，北同乍得为邻。全国共有大小部族32个，主要有巴雅，班达、桑戈和曼吉阿族等。官方语言为法语。通用桑戈语</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">34</field>
+		<field name="continent_id">3</field>
+		<field name="name">Lesotho</field>
+		<field name="lower_name">the kingdom of lesotho</field>
+		<field name="country_code">LSO</field>
+		<field name="full_name">The Kingdom of Lesotho</field>
+		<field name="cname">莱索托</field>
+		<field name="full_cname">莱索托王国</field>
+		<field name="remark">莱索托全名莱索托王国（索托语：Mmuso wa Lesotho，英语：Kingdom of Lesotho，意思是“说索托语的人们”），非洲南部国家之一，英联邦成员国之一。莱索托位于非洲东南部，为内陆国家，地处南非高原东缘德拉肯斯山西坡。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">35</field>
+		<field name="continent_id">3</field>
+		<field name="name">Congo</field>
+		<field name="lower_name">republic of the congo</field>
+		<field name="country_code">COG</field>
+		<field name="full_name">Republic of the Congo</field>
+		<field name="cname">刚果</field>
+		<field name="full_cname">刚果共和国</field>
+		<field name="remark">刚果共和国（英语：The Republic of Congo；法语：République du Congo），简称为刚果（布），位于非洲中西部，赤道横贯中部，东、南两面邻刚果（金）、安哥拉，北接中非、喀麦隆，西连加蓬，西南临大西洋，海岸线长150多公里，总面积为34.2万平方公里。[1] </field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">36</field>
+		<field name="continent_id">3</field>
+		<field name="name">South Africa</field>
+		<field name="lower_name">the republic of south africa</field>
+		<field name="country_code">ZAF</field>
+		<field name="full_name">The Republic of South Africa</field>
+		<field name="cname">南非</field>
+		<field name="full_cname">南非共和国</field>
+		<field name="remark">南非共和国（The Republic of South Africa），简称南非。地处南半球，有“彩虹之国”之美誉，位于非洲大陆的最南端，陆地面积为1219090平方公里，其东、南、西三面被印度洋和大西洋环抱，陆地上与纳米比亚、博茨瓦纳、莱索托、津巴布韦、莫桑比克和斯威士兰接壤。东面隔印度洋和澳大利亚相望，西面隔大西洋和巴西、阿根廷相望。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">37</field>
+		<field name="continent_id">3</field>
+		<field name="name">Liberia</field>
+		<field name="lower_name">the republic of liberia</field>
+		<field name="country_code">LBR</field>
+		<field name="full_name">The Republic of Liberia</field>
+		<field name="cname">利比里亚</field>
+		<field name="full_cname">利比里亚共和国</field>
+		<field name="remark">利比里亚共和国（英语：Republic of Liberia），是非洲的一个国家，处于非洲西部。北接几内亚，西北接塞拉利昂，东邻科特迪瓦，西南濒大西洋。
+</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">38</field>
+		<field name="continent_id">3</field>
+		<field name="name">Tunisia</field>
+		<field name="lower_name">the republic of tunisia</field>
+		<field name="country_code">TUN</field>
+		<field name="full_name">The Republic of Tunisia</field>
+		<field name="cname">突尼斯</field>
+		<field name="full_cname">突尼斯共和国</field>
+		<field name="remark">突尼斯（Tunisia）全称突尼斯共和国（The Republic of Tunisia，la Répubique Tunisienne）[1]  ，位于非洲大陆最北端，北部和东部面临地中海，隔突尼斯海峡与意大利的西西里岛相望，扼地中海东西航运的要冲，东南与利比亚为邻，西与阿尔及利亚接壤。突尼斯是世界上少数几个集中了海滩、沙漠、山林和古文明的国家之一，是悠久文明和多元文化的融和之地。突尼斯地处地中海地区的中央，拥有长达1300公里的海岸线。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">39</field>
+		<field name="continent_id">3</field>
+		<field name="name">Zambia</field>
+		<field name="lower_name">the republic of zambia</field>
+		<field name="country_code">ZMB</field>
+		<field name="full_name">The Republic of Zambia</field>
+		<field name="cname">赞比亚</field>
+		<field name="full_cname">赞比亚共和国</field>
+		<field name="remark">赞比亚共和国（The Republic of Zambia）是非洲中南部的一个内陆国家，大部分属于高原地区。北靠刚果民主共和国、东北邻坦桑尼亚、东面和马拉维接壤、东南和莫桑比克相连、南接津巴布韦、博茨瓦纳和纳米比亚，西面与安哥拉相邻。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">40</field>
+		<field name="continent_id">3</field>
+		<field name="name">Niger</field>
+		<field name="lower_name">the republic of niger</field>
+		<field name="country_code">NER</field>
+		<field name="full_name">The Republic of Niger</field>
+		<field name="cname">尼日尔</field>
+		<field name="full_cname">尼日尔共和国</field>
+		<field name="remark">尼日尔共和国位于非洲中西部，是撒哈拉沙漠南缘的内陆国，该国北与阿尔及利亚和利比亚接壤，南同尼日利亚和贝宁交界，西与马里和布基纳法索毗连，东同乍得相邻</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">41</field>
+		<field name="continent_id">3</field>
+		<field name="name">Western Sahara</field>
+		<field name="lower_name">the sahrawi arab democratic republic western sahara</field>
+		<field name="country_code">ESH</field>
+		<field name="full_name">the Sahrawi Arab Democratic Republic Western Sahara</field>
+		<field name="cname">西撒哈拉</field>
+		<field name="full_cname">阿拉伯撒哈拉民主共和国</field>
+		<field name="remark">西撒哈拉（阿拉伯语：الصحراء الغربية‎，西班牙语：Sáhara Occidental，英语：Western Sahara）位于非洲西北部，地处撒哈拉沙漠西部，滨临大西洋，与摩洛哥、毛利塔尼亚、阿尔及利亚相邻。该地是一个有争议地区，摩洛哥声明对此地区拥有主权。另外，当地独立武装组织波利萨里奥阵线统治着该地区以东大约四分之一的荒芜地区，其余大部分均为摩洛哥所占领。目前，共有47个国家承认该武装政权所领导的“阿拉伯撒哈拉民主共和国（the Sahrawi Arab Democratic Republic）”为独立的阿拉伯国家之一。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">42</field>
+		<field name="continent_id">3</field>
+		<field name="name">Togo</field>
+		<field name="lower_name">the republic of togo</field>
+		<field name="country_code">TGO</field>
+		<field name="full_name">The Republic of Togo</field>
+		<field name="cname">多哥</field>
+		<field name="full_cname">多哥共和国</field>
+		<field name="remark">多哥共和国（法语：République Togolaise），是西非国家之一，东面与贝宁，北面与布基纳法索，西面与加纳相邻，南面有一小段海岸线面向几内亚湾。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">43</field>
+		<field name="continent_id">3</field>
+		<field name="name">Namibia</field>
+		<field name="lower_name">the republic of namibia</field>
+		<field name="country_code">NAM</field>
+		<field name="full_name">The Republic of Namibia</field>
+		<field name="cname">纳米比亚</field>
+		<field name="full_cname">纳米比亚共和国</field>
+		<field name="remark">纳米比亚共和国（英语：The Republic of Namibia）位于非洲西南部，北靠安哥拉和赞比亚，东连博茨瓦纳，南接南非。海拔高度为1000-2000米，干旱少雨，属亚热带、半沙漠性气候。该国分为13个行政区和50个地方政府，首都温得和克（Windhoek）。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">44</field>
+		<field name="continent_id">3</field>
+		<field name="name">Mozambique</field>
+		<field name="lower_name">the republic of mozambique</field>
+		<field name="country_code">MOZ</field>
+		<field name="full_name">The Republic of Mozambique</field>
+		<field name="cname">莫桑比克</field>
+		<field name="full_cname">莫桑比克共和国</field>
+		<field name="remark">莫桑比克共和国（葡萄牙语：República de Moçambique）曾译作莫三鼻给，是非洲南部国家，以葡萄牙语作为官方语言，1975年脱离葡萄牙殖民地而独立。作为与英国并无宪制关系的国家，在1995年以特殊例子加入英联邦。莫桑比克的前身，就是葡属东非洲，它是在1498年3月，被葡萄牙航海家达伽马所率领的船队发现，当时就有阿拉伯的贸易站在沿海一带设立。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">46</field>
+		<field name="continent_id">3</field>
+		<field name="name">Ethiopia</field>
+		<field name="lower_name">the federal democratic republic of ethiopia</field>
+		<field name="country_code">ETH</field>
+		<field name="full_name">The Federal Democratic Republic of Ethiopia</field>
+		<field name="cname">埃塞俄比亚</field>
+		<field name="full_cname">埃塞俄比亚联邦民主共和国</field>
+		<field name="remark">埃塞俄比亚全名埃塞俄比亚联邦民主共和国（旧称“阿比西尼亚帝国”，Abyssinia）是一个位于非洲东北的国家。
+与一般非洲国家不同，埃塞俄比亚在第二次世界大战被意大利入侵（1936-1941年）之前，一直维持其古老的君主制度，并未受到殖民主义浪潮的吞噬。1974年，一次军事流血政变将1930年以来一直统治埃塞俄比亚的皇帝海尔·塞拉西一世（Haile Selassie I）推翻以后，埃塞俄比亚改为奉行社会主义，直至1991年放弃社会主义。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">47</field>
+		<field name="continent_id">3</field>
+		<field name="name">Morocco</field>
+		<field name="lower_name">the kingdom of morocco</field>
+		<field name="country_code">MAR</field>
+		<field name="full_name">The Kingdom of Morocco</field>
+		<field name="cname">摩洛哥</field>
+		<field name="full_cname">摩洛哥王国</field>
+		<field name="remark">摩洛哥王国是非洲西北部的一个沿海阿拉伯国家，东部以及东南部与阿尔及利亚接壤，南部紧邻西撒哈拉，西部濒临大西洋，北部和西班牙、葡萄牙隔海相望。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">48</field>
+		<field name="continent_id">3</field>
+		<field name="name">Malawi</field>
+		<field name="lower_name">the republic of malawi</field>
+		<field name="country_code">MWI</field>
+		<field name="full_name">The Republic of Malawi</field>
+		<field name="cname">马拉维</field>
+		<field name="full_cname">马拉维共和国</field>
+		<field name="remark">马拉维全称：马拉维共和国（齐切瓦语：Dziko la Malaŵi；英语：Republic of Malawi），位于非洲东南部，是个内陆国家，被坦桑尼亚、莫桑比克、赞比亚三国包围其中，国土面积11.8万平方公里，人口1511.8万。马拉维得名于境内的马拉维湖，这个湖是非洲第三大湖，面积3万平方公里，湖水最深可达700多米，有很多世界独一无二的淡水鱼种类。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">49</field>
+		<field name="continent_id">3</field>
+		<field name="name">Nigeria</field>
+		<field name="lower_name">federal republic of nigeria</field>
+		<field name="country_code">NGA</field>
+		<field name="full_name">Federal Republic of Nigeria</field>
+		<field name="cname">尼日利亚</field>
+		<field name="full_cname">尼日利亚联邦共和国</field>
+		<field name="remark">尼日利亚联邦共和国（Federal Republic of Nigeria），位于6°27′N，3°24′E，处于西非东南部的国家，非洲几内亚湾西岸的顶点，邻国包括西边的贝宁，北边的尼日尔，东北方隔乍得湖与乍得接壤一小段国界，东和东南与喀麦隆毗连，南濒大西洋几内亚湾。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">50</field>
+		<field name="continent_id">3</field>
+		<field name="name">Cape Verde</field>
+		<field name="lower_name">the republic of cape verde</field>
+		<field name="country_code">CPV</field>
+		<field name="full_name">The Republic of Cape Verde</field>
+		<field name="cname">佛得角</field>
+		<field name="full_cname">佛得角共和国</field>
+		<field name="remark">佛得角位于北大西洋的佛得角群岛上，东距非洲大陆最西点佛得角（塞内加尔境内）500多公里，扼欧洲与南美、南非间交通要冲，包括圣安唐、圣尼古拉、萨尔、博阿维什塔、福古、圣地亚哥等15个大小岛屿，分北面的向风群岛和南面的背风群岛两组。民族语言为克里奥尔语。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">51</field>
+		<field name="continent_id">3</field>
+		<field name="name">Burundi</field>
+		<field name="lower_name">the republic of burundi</field>
+		<field name="country_code">BDI</field>
+		<field name="full_name">The Republic of Burundi</field>
+		<field name="cname">布隆迪</field>
+		<field name="full_cname">布隆迪共和国</field>
+		<field name="remark">布隆迪（The Republic of Burundi）位于非洲中东部赤道南侧。北与卢旺达接壤，东、南与坦桑尼亚交界，西与刚果（金）为邻，西南濒坦噶尼喀湖。境内多高原和山地，大部由东非大裂谷东侧高原构成，全国平均海拔1600米，有“山国”之称。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">52</field>
+		<field name="continent_id">3</field>
+		<field name="name">Algeria</field>
+		<field name="lower_name">people's democratic republic of algeria</field>
+		<field name="country_code">DZA</field>
+		<field name="full_name">People's Democratic Republic of Algeria</field>
+		<field name="cname">阿尔及利亚</field>
+		<field name="full_cname">阿尔及利亚民主人民共和国</field>
+		<field name="remark">阿尔及利亚经济规模在非洲居第四位，仅次于南非、尼日利亚和埃及。碳化氢产业（石油与天然气的统称）是阿国民经济的支柱。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">53</field>
+		<field name="continent_id">3</field>
+		<field name="name">Djibouti</field>
+		<field name="lower_name">the republic of djibouti</field>
+		<field name="country_code">DJI</field>
+		<field name="full_name">The Republic of Djibouti</field>
+		<field name="cname">吉布提</field>
+		<field name="full_cname">吉布提共和国</field>
+		<field name="remark">吉布提（法语La République de Djibouti ，阿法尔语：Gabuutih），阿法尔语意为“沸腾的蒸锅”，位于非洲东北部亚丁湾西岸，扼红海入印度洋的要冲，东南与索马里接壤，西南、西部和西北部三面毗邻埃塞俄比亚，北部和厄立特里亚接壤。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">55</field>
+		<field name="continent_id">3</field>
+		<field name="name">Gambia</field>
+		<field name="lower_name">islamic republic of gambia</field>
+		<field name="country_code">GMB</field>
+		<field name="full_name">Islamic Republic of Gambia</field>
+		<field name="cname">冈比亚</field>
+		<field name="full_cname">冈比亚伊斯兰共和国</field>
+		<field name="remark">冈比亚（全称：冈比亚伊斯兰共和国[1]  ，台湾地区称为“甘比亚”），位于北纬 13°28'，西经 16°39'，非洲西部大西洋沿岸地区，它西邻大西洋，北、东、南三面被塞内加尔紧紧包围，国土面积约为10380平方公里。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">56</field>
+		<field name="continent_id">3</field>
+		<field name="name">Eq.Guinea</field>
+		<field name="lower_name">the republic of equatorial guinea</field>
+		<field name="country_code">GNQ</field>
+		<field name="full_name">The Republic of Equatorial Guinea</field>
+		<field name="cname">赤道几内亚</field>
+		<field name="full_cname">赤道几内亚共和国</field>
+		<field name="remark">道几内亚（西班牙语：República de Guinea Ecuatorial），位于非洲中西部，西临大西洋，北邻喀麦隆，东、南与加蓬接壤。由大陆上的木尼河地区和几内亚湾内的比奥科、安诺本、科里斯科等岛屿组成。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">57</field>
+		<field name="continent_id">3</field>
+		<field name="name">Sudan</field>
+		<field name="lower_name">the republic of sudan</field>
+		<field name="country_code">SDN</field>
+		<field name="full_name">The Republic of Sudan</field>
+		<field name="cname">苏丹</field>
+		<field name="full_cname">苏丹共和国</field>
+		<field name="remark">苏丹共和国（阿拉伯语：جمهورية السودان‎；英语：Republic of the Sudan），位于非洲东北、红海沿岸、撒哈拉沙漠东端。苏丹国土面积1886068平方公里，为非洲面积第3大国，世界面积第15大国。首都喀土穆。</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">58</field>
+		<field name="continent_id">3</field>
+		<field name="name">Kenya</field>
+		<field name="lower_name">the republic of kenya</field>
+		<field name="country_code">KEN</field>
+		<field name="full_name">The Republic of Kenya</field>
+		<field name="cname">肯尼亚</field>
+		<field name="full_cname">肯尼亚共和国</field>
+		<field name="remark">肯尼亚位于非洲东部，赤道横贯中部，东非大裂谷纵贯南北。东邻索马里，南接坦桑尼亚，西连乌干达，北与埃塞俄比亚、南苏丹交界，东南濒临印度洋，海岸线长536公里。国土面积的18%为可耕地，其余主要适于畜牧业。
+</field>
+		<field name="continent">Africa</field>
+	</row>
+
+	<row>
+		<field name="id">59</field>
+		<field name="continent_id">1</field>
+		<field name="name">Singapore</field>
+		<field name="lower_name">republic of singapore</field>
+		<field name="country_code">SGP</field>
+		<field name="full_name">Republic of Singapore</field>
+		<field name="cname">新加坡</field>
+		<field name="full_cname">新加坡共和国</field>
+		<field name="remark">新加坡，全称为新加坡共和国（英语： Republic of Singapore），旧称新嘉坡、星洲或星岛，别称为狮城，是东南亚的一个岛国，政治体制实行议会制共和制。新加坡北隔柔佛海峡与马来西亚为邻，南隔新加坡海峡与印度尼西亚相望，毗邻马六甲海峡南口，国土除新加坡岛之外，还包括周围数岛</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">60</field>
+		<field name="continent_id">1</field>
+		<field name="name">Korea</field>
+		<field name="lower_name">republic of korea</field>
+		<field name="country_code">KOR</field>
+		<field name="full_name">Republic of Korea</field>
+		<field name="cname">韩国</field>
+		<field name="full_cname">大韩民国</field>
+		<field name="remark">韩国（谚文：한국），全称大韩民国，别称南韩或南朝鲜。位于东亚朝鲜半岛南部，总面积约10万平方公里（占朝鲜半岛总面积的45%），主体民族为朝鲜族（韩族），通用韩语（朝鲜语），总人口约5041.85万（2014年）。首都为首尔（旧称：汉城；谚文：서울）。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">61</field>
+		<field name="continent_id">1</field>
+		<field name="name">Syrian</field>
+		<field name="lower_name">the syrian arab republic</field>
+		<field name="country_code">SYR</field>
+		<field name="full_name">The Syrian Arab Republic</field>
+		<field name="cname">叙利亚</field>
+		<field name="full_cname">阿拉伯叙利亚共和国</field>
+		<field name="remark">阿拉伯叙利亚共和国（英语：The Syrian Arab Republic），通称为叙利亚，位于亚洲西部，地中海东岸，北与土耳其接壤，东同伊拉克交界，南与约旦毗连，西南与黎巴嫩和巴勒斯坦（或以色列）为邻，西与塞浦路斯隔地中海相望，包括戈兰高地，全国总面积为185180平方公里。沿海和北部地区属亚热带地中海气候，南部地区属热带沙漠气候。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">62</field>
+		<field name="continent_id">1</field>
+		<field name="name">Uzbekstan</field>
+		<field name="lower_name">the republic of uzbekistan</field>
+		<field name="country_code">UZB</field>
+		<field name="full_name">The Republic of Uzbekistan</field>
+		<field name="cname">乌兹别克斯坦</field>
+		<field name="full_cname">乌兹别克斯坦共和国</field>
+		<field name="remark">乌兹别克斯坦共和国（乌兹别克语：Oʻzbekiston Respublikasi，英语：The Republic of Uzbekistan），简称乌兹别克斯坦，是一个位于中亚的内陆国家，1991年从前苏联独立。是世上两个双重内陆国之一（另一个为列支敦士登）</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">63</field>
+		<field name="continent_id">1</field>
+		<field name="name">Bahrian</field>
+		<field name="lower_name">the kingdom of bahrain</field>
+		<field name="country_code">BHR</field>
+		<field name="full_name">The Kingdom of Bahrain</field>
+		<field name="cname">巴林</field>
+		<field name="full_cname">巴林王国</field>
+		<field name="remark">巴林王国（The Kingdom of Bahrain），简称巴林。巴林，西亚国家，位于亚洲西部，为波斯湾西南部的岛国，邻近卡塔尔和沙特阿拉伯之间，属热带沙漠气候，石油为国家经济的支柱。阿拉伯人约占60%，75~80%的居民住在城市里。
+</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">64</field>
+		<field name="continent_id">1</field>
+		<field name="name">Japan</field>
+		<field name="lower_name">japan</field>
+		<field name="country_code">JPN</field>
+		<field name="full_name">Japan</field>
+		<field name="cname">日本</field>
+		<field name="full_cname">日本国</field>
+		<field name="remark">日本（Japan），全称日本国，位于亚洲东部、太平洋西北部。国名意为“日出之国”，领土由北海道、本州、四国、九州四大岛及7200多个小岛组成，总面积37.8万平方千米。主体民族为和族，通用日语，总人口约1.26亿。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">65</field>
+		<field name="continent_id">1</field>
+		<field name="name">Jordan</field>
+		<field name="lower_name">the hashemite kingdom of jordan</field>
+		<field name="country_code">JOR</field>
+		<field name="full_name">The Hashemite Kingdom of Jordan</field>
+		<field name="cname">约旦</field>
+		<field name="full_cname">约旦哈希姆王国</field>
+		<field name="remark">约旦是一个比较小的阿拉伯国家，但相对周边国家来说约旦政治经济和文化生活等方面稳定。约旦人民生活较为富裕，在伊斯兰国家中相对开放。约旦比较缺乏淡水资源，石油资源不丰富。旅游业是约旦支柱产业之一，佩特拉古城，死海和瓦迪拉姆沙漠等景点成为世界各国游客探险旅行和休闲度假的首选目的地。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">66</field>
+		<field name="continent_id">1</field>
+		<field name="name">Vietnam</field>
+		<field name="lower_name">socialist republic of vietnam</field>
+		<field name="country_code">VNM</field>
+		<field name="full_name">Socialist Republic of Vietnam</field>
+		<field name="cname">越南</field>
+		<field name="full_cname">越南社会主义共和国</field>
+		<field name="remark">越南，全称为越南社会主义共和国（英语：Socialist Republic of Vietnam，越南语：Cộng hòa Xã hội Chủ nghĩa Việt Nam），是亚洲的一个社会主义国家。位于东南亚中南半岛东部，北与中国广西、云南接壤，西与老挝、柬埔寨交界，国土狭长，面积约33万平方公里，紧邻南海，海岸线长3260多公里，是以京族为主体的多民族国家。
+</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">67</field>
+		<field name="continent_id">1</field>
+		<field name="name">Kirghizia</field>
+		<field name="lower_name">the kyrgyz republic</field>
+		<field name="country_code">KGZ</field>
+		<field name="full_name">The Kyrgyz Republic</field>
+		<field name="cname">吉尔吉斯斯坦</field>
+		<field name="full_cname">吉尔吉斯共和国</field>
+		<field name="remark">吉尔吉斯斯坦位于欧亚大陆的腹心地带，不仅是连接欧亚大陆和中东的要冲，还是大国势力东进西出、南下北上的必经之地。面积为19.85万平方公里，是位于中亚东北部的内陆国。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">68</field>
+		<field name="continent_id">1</field>
+		<field name="name">Thailand</field>
+		<field name="lower_name">kingdom of thailand</field>
+		<field name="country_code">THA</field>
+		<field name="full_name">Kingdom of Thailand</field>
+		<field name="cname">泰国</field>
+		<field name="full_cname">泰王国</field>
+		<field name="remark">泰王国（泰语：ราชอาณาจักรไทย），通称泰国（泰语：ประเทศไทย），是一个位于东南亚的君主立宪制国家。泰国位于中南半岛中部，其西部与北部和缅甸、安达曼海接壤，东北边是老挝，东南是柬埔寨，南边狭长的半岛与马来西亚相连。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">69</field>
+		<field name="continent_id">1</field>
+		<field name="name">Sri Lanka</field>
+		<field name="lower_name">the democratic socialist republic of sri lanka</field>
+		<field name="country_code">LKA</field>
+		<field name="full_name">The Democratic Socialist Republic of Sri Lanka</field>
+		<field name="cname">斯里兰卡</field>
+		<field name="full_cname">斯里兰卡民主社会主义共和国</field>
+		<field name="remark">斯里兰卡，全称斯里兰卡民主社会主义共和国（The Democratic Socialist Republic of Sri Lanka）[1]  ，旧称锡兰，是个热带岛国，位于印度洋海上，英联邦成员国之一。中国古代曾经称其为狮子国、师子国、僧伽罗。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">70</field>
+		<field name="continent_id">1</field>
+		<field name="name">United Arab Emirates</field>
+		<field name="lower_name">the united arab emirates</field>
+		<field name="country_code">ARE</field>
+		<field name="full_name">The United Arab Emirates</field>
+		<field name="cname">阿联酋</field>
+		<field name="full_cname">阿拉伯联合酋长国</field>
+		<field name="remark">阿拉伯联合酋长国（阿拉伯文：امارات عربية متحدة‎，英文：The United Arab Emirates），简称为阿联酋，位于阿拉伯半岛东部，北濒波斯湾，西北与卡塔尔为邻，西和南与沙特阿拉伯交界，东和东北与阿曼毗连海岸线长734公里，总面积83600平方公里，首都阿布扎比。[1] 
+</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">71</field>
+		<field name="continent_id">1</field>
+		<field name="name">Laos</field>
+		<field name="lower_name">lao people's democratic republic</field>
+		<field name="country_code">LAO</field>
+		<field name="full_name">Lao People's Democratic Republic</field>
+		<field name="cname">老挝</field>
+		<field name="full_cname">老挝人民民主共和国</field>
+		<field name="remark">老挝历史上曾是真腊王国的一部分。13至18世纪是南掌，之后受暹罗和越南入侵，后来又受法国入侵，1893年沦为法国殖民地。1945年独立，1975年废除君主制成立共和国。老挝是东南亚国家联盟成员国，也是最不发达国家之一，于1997年7月加入东盟。[1] </field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">72</field>
+		<field name="continent_id">1</field>
+		<field name="name">Afghanistan</field>
+		<field name="lower_name">the islamic republic of afghanistan</field>
+		<field name="country_code">AFG</field>
+		<field name="full_name">the Islamic Republic of Afghanistan</field>
+		<field name="cname">阿富汗</field>
+		<field name="full_cname">阿富汗斯坦伊斯兰共和国</field>
+		<field name="remark">阿富汗位于西亚、南亚和中亚交汇处，北接土库曼斯坦、乌兹别克斯坦和塔吉克斯坦，东北突出的狭长地带与中国接壤，东和东南与巴基斯坦毗邻，西与伊朗交界。[2] </field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">73</field>
+		<field name="continent_id">1</field>
+		<field name="name">Macau</field>
+		<field name="lower_name">macau macao</field>
+		<field name="country_code">MAC</field>
+		<field name="full_name">Macau Macao</field>
+		<field name="cname">中国澳门</field>
+		<field name="full_cname">中华人民共和国澳门特别行政区</field>
+		<field name="remark">澳门是一个国际自由港，是世界人口密度最高的地区之一，也是世界四大赌城之一。其著名的轻工业、旅游业、酒店业和娱乐场使澳门长盛不衰，成为全球最发达、富裕的地区之一。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">74</field>
+		<field name="continent_id">1</field>
+		<field name="name">Tajikistan</field>
+		<field name="lower_name">the republic of tajikistan</field>
+		<field name="country_code">TJK</field>
+		<field name="full_name">The Republic of Tajikistan</field>
+		<field name="cname">塔吉克斯坦</field>
+		<field name="full_cname">塔吉克斯坦共和国</field>
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">75</field>
+		<field name="continent_id">1</field>
+		<field name="name">Korea,DPR</field>
+		<field name="lower_name">democratic people's republic of korea</field>
+		<field name="country_code">PRK</field>
+		<field name="full_name">Democratic People's Republic of Korea</field>
+		<field name="cname">朝鲜</field>
+		<field name="full_cname">朝鲜民主主义人民共和国</field>
+		<field name="remark">鲜民主主义人民共和国于第二次世界大战后的1948年9月9日成立，领土面积122762平方公里，人口2405万（2008年）。朝鲜族为单一民族，通用朝鲜语。朝鲜民主主义人民共和国1958年宣布完成了城市、农村生产关系的社会主义改造，建立了社会主义经济制度。1970年宣布实现了社会主义工业化。1975年5月，成为“七十七国集团”正式成员国，同年8月正式加入不结盟运动。1991年9月17日同韩国一起加入了联合国。2000年7月，加入东盟地区论坛（ARF）。与163个国家（含欧盟）建立了外交关系。[1] </field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">76</field>
+		<field name="continent_id">1</field>
+		<field name="name">Palestine</field>
+		<field name="lower_name">the state of palestine</field>
+		<field name="country_code">PAL</field>
+		<field name="full_name">The State of Palestine</field>
+		<field name="cname">巴勒斯坦</field>
+		<field name="full_cname">巴勒斯坦国</field>
+		<field name="remark">巴勒斯坦国（阿拉伯语：فلسطين‎‎，英语：Palestine）是中东的一个国家，由加沙和约旦河西岸两部分组成。加沙地区面积365平方公里，约旦河西岸地区面积5800平方公里。巴勒斯坦实际控制的土地面积为2500平方公里。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">77</field>
+		<field name="continent_id">1</field>
+		<field name="name">Hong Kong</field>
+		<field name="lower_name">hong kong</field>
+		<field name="country_code">HKG</field>
+		<field name="full_name">Hong Kong</field>
+		<field name="cname">中国香港</field>
+		<field name="full_cname">中华人民共和国香港特别行政区</field>
+		<field name="remark">香港是全球高度繁荣的国际大都会之一，全境由香港岛、九龙半岛、新界等3大区域组成，管辖陆地总面积1104.32平方公里，截至2014年末，总人口约726.4万人，人口密度居全世界第三。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">78</field>
+		<field name="continent_id">1</field>
+		<field name="name">Iraq</field>
+		<field name="lower_name">republic of iraq</field>
+		<field name="country_code">IRQ</field>
+		<field name="full_name">Republic Of Iraq</field>
+		<field name="cname">伊拉克</field>
+		<field name="full_cname">伊拉克共和国</field>
+		<field name="remark">伊拉克共和国位于亚洲西南部，阿拉伯半岛东北部，与它接壤的国家众多，南方是沙特阿拉伯、科威特，北方是土耳其，西北是叙利亚，伊朗和约旦各位于其东西两侧。阿拉伯族占全国总人口的73%，库尔德族占21%。该国穆斯林占人口的95%，其中什叶派穆斯林占54%、逊尼派穆斯林占41%。官方语言为阿拉伯语，北部库尔德地区的官方语言是库尔德语，东部地区有些居民讲波斯语。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">79</field>
+		<field name="continent_id">1</field>
+		<field name="name">Lebanon</field>
+		<field name="lower_name">the republic of lebanon</field>
+		<field name="country_code">LBN</field>
+		<field name="full_name">The Republic of Lebanon</field>
+		<field name="cname">黎巴嫩</field>
+		<field name="full_cname">黎巴嫩共和国</field>
+		<field name="remark">黎巴嫩共和国（阿拉伯语：لبنان；英文：Republic of Lebanon）位于亚洲西南部，地中海东部沿岸。黎巴嫩习惯上归入中东国家。该国东部和北部与叙利亚接壤，南部与以色列（或者巴勒斯坦，边界未划定）为邻，首都贝鲁特。黎巴嫩属热带地中海气候，沿海夏季炎热潮湿，冬季温暖。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">80</field>
+		<field name="continent_id">1</field>
+		<field name="name">Kuwait</field>
+		<field name="lower_name">the state of kuwait</field>
+		<field name="country_code">KWT</field>
+		<field name="full_name">The State of Kuwait</field>
+		<field name="cname">科威特</field>
+		<field name="full_cname">科威特国</field>
+		<field name="remark">科威特的石油和天然气资源丰富。科威特的已探明石油储量940亿桶，约为世界总储量的10% 。石油、天然气工业为国民经济的支柱，其产值占国内生产总值的45%。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">81</field>
+		<field name="continent_id">1</field>
+		<field name="name">Brunei</field>
+		<field name="lower_name">brunei darussalam</field>
+		<field name="country_code">BRN</field>
+		<field name="full_name">Brunei Darussalam</field>
+		<field name="cname">文莱</field>
+		<field name="full_cname">文莱达鲁萨兰国</field>
+		<field name="remark">文莱位于亚洲东南部，加里曼丹岛西北部，北濒中国南海，东南西三面与马来西亚的沙捞越州接壤，并被沙捞越州的林梦分隔为不相连的东西两部分。海岸线长约162公里，有33个岛屿，总面积为5765平方公里。属热带雨林气候</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">82</field>
+		<field name="continent_id">1</field>
+		<field name="name">Maldives</field>
+		<field name="lower_name">the republic of maldives</field>
+		<field name="country_code">MDV</field>
+		<field name="full_name">The Republic of Maldives</field>
+		<field name="cname">马尔代夫</field>
+		<field name="full_cname">马尔代夫共和国</field>
+		<field name="remark">马尔代夫全称：马尔代夫共和国（原名马尔代夫群岛，1968年11月改为现名[1]  ）位于南亚，是印度洋上的一个岛国，也是世界上最大的珊瑚岛国。由1200余个小珊瑚岛屿组成，其中202个岛屿有人居住，从空中鸟瞰就像一串珍珠撒在印度洋上。面积300平方公里（不计算领海），是亚洲最小的国家</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">83</field>
+		<field name="continent_id">1</field>
+		<field name="name">Indonesia</field>
+		<field name="lower_name">the republic of indonesia</field>
+		<field name="country_code">IDN</field>
+		<field name="full_name">The Republic of Indonesia</field>
+		<field name="cname">印度尼西亚</field>
+		<field name="full_cname">印度尼西亚共和国</field>
+		<field name="remark">印度尼西亚共和国（印尼语：Republik Indonesia，英语：The Republic of Indonesia），简称印度尼西亚或印尼，是东南亚国家，首都为雅加达。印尼与巴布亚新几内亚、东帝汶和马来西亚等国家相接。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">84</field>
+		<field name="continent_id">1</field>
+		<field name="name">Israel</field>
+		<field name="lower_name">the state of israel</field>
+		<field name="country_code">ISR</field>
+		<field name="full_name">The State of Israel</field>
+		<field name="cname">以色列</field>
+		<field name="full_cname">以色列国</field>
+		<field name="remark">以色列对于科学和科技的发展贡献相当大。自从建国以来，以色列一直致力于科学和工程学的技术研发，以色列的科学家在遗传学、计算机科学、光学、工程学、以及其他技术产业上的贡献都相当杰出。以色列的研发产业中最知名的是其军事科技产业，在农业、物理学和医学上的研发也十分知名。
+
+</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">85</field>
+		<field name="continent_id">1</field>
+		<field name="name">Mongolia</field>
+		<field name="lower_name">mongolia</field>
+		<field name="country_code">MNG</field>
+		<field name="full_name">Mongolia</field>
+		<field name="cname">蒙古</field>
+		<field name="full_cname">蒙古国</field>
+		<field name="remark">蒙古，历史上曾被匈奴、鲜卑、柔然、突厥等游牧民族统治。1206年，成吉思汗建立了蒙古帝国；1271年，忽必烈建立元朝；17世纪末，被纳入清朝统治范围。1921年，取得事实独立。1924年，成立受前苏联控制的蒙古人民共和国。1992年2月改国名为“蒙古国”[2]  。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">86</field>
+		<field name="continent_id">1</field>
+		<field name="name">Oman</field>
+		<field name="lower_name">sultanate of oman</field>
+		<field name="country_code">OMN</field>
+		<field name="full_name">Sultanate of Oman</field>
+		<field name="cname">阿曼</field>
+		<field name="full_cname">阿曼苏丹国</field>
+		<field name="remark">阿曼苏丹国（The Sultanate of Oman），简称为阿曼，位于亚洲西部的阿拉伯半岛东南部，它扼守着世界上最重要的石油输出通道——波斯湾和阿曼湾之间的霍尔木兹海峡。阿曼是阿拉伯半岛最古老的国家之一，公元前2000年已经广泛进行海上和陆路贸易活动，并成为阿拉伯半岛的造船中心。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">87</field>
+		<field name="continent_id">1</field>
+		<field name="name">India</field>
+		<field name="lower_name">the republic of india</field>
+		<field name="country_code">IND</field>
+		<field name="full_name">The Republic of India</field>
+		<field name="cname">印度</field>
+		<field name="full_cname">印度共和国</field>
+		<field name="remark">印度是世界四大文明古国之一。公元前2500年至1500年之间创造了印度河文明。公元前1500年左右，原居住在中亚的雅利安人中的一支进入南亚次大陆，征服当地土著，建立了一些奴隶制小国，确立了种姓制度，婆罗门教兴起。公元前4世纪崛起的孔雀王朝统一印度，中世纪小国林立，印度教兴起。1600年英国侵入，建立东印度公司。1757年沦为英殖民地。1947年8月15日，印巴分治，印度独立。1950年1月26日，印度共和国成立，为英联邦成员国</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">88</field>
+		<field name="continent_id">1</field>
+		<field name="name">Myanmar</field>
+		<field name="lower_name">republic of the union of myanmar</field>
+		<field name="country_code">MMR</field>
+		<field name="full_name">Republic Of The Union Of Myanmar</field>
+		<field name="cname">缅甸</field>
+		<field name="full_cname">缅甸联邦共和国</field>
+		<field name="remark">缅甸联邦共和国简称为缅甸，是东南亚国家联盟成员国之一。西南临安达曼海，西北与印度和孟加拉国为邻，东北靠中国，东南接泰国与老挝。首都为内比都。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">89</field>
+		<field name="continent_id">1</field>
+		<field name="name">Malaysia</field>
+		<field name="lower_name">malaysia</field>
+		<field name="country_code">MYS</field>
+		<field name="full_name">Malaysia</field>
+		<field name="cname">马来西亚</field>
+		<field name="full_cname">马来西亚联邦</field>
+		<field name="remark">马来西亚，全称马来西亚联邦（Malaysia，前身马来亚），简称大马。马来西亚被南中国海分为两个部分：位于马来半岛的西马来西亚，北接泰国，南部隔着柔佛海峡，以新柔长堤和第二通道连接新加坡；东马来西亚，位于婆罗洲（加里曼丹岛）的北部，南接印度尼西亚，文莱国夹在沙巴州和砂拉越州之间。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">90</field>
+		<field name="continent_id">1</field>
+		<field name="name">East Timor</field>
+		<field name="lower_name">democratic republic of east timor</field>
+		<field name="country_code">TMP</field>
+		<field name="full_name">Democratic Republic of East Timor</field>
+		<field name="cname">东帝汶</field>
+		<field name="full_cname">东帝汶民主共和国</field>
+		<field name="remark">东帝汶全称东帝汶民主共和国（英语：Democratic Republic of Timor-Leste）是位于努沙登加拉群岛东端的岛国，包括帝汶岛东部和西部北海岸的欧库西地区以及附近的阿陶罗岛和东端的雅库岛。西与印尼西帝汶相接，南隔帝汶海与澳大利亚相望</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">91</field>
+		<field name="continent_id">1</field>
+		<field name="name">Yemen</field>
+		<field name="lower_name">the republic of yemen</field>
+		<field name="country_code">YEM</field>
+		<field name="full_name">The Republic of Yemen</field>
+		<field name="cname">也门</field>
+		<field name="full_cname">也门共和国</field>
+		<field name="remark">也门有3000多年文字记载的历史，是阿拉伯世界古代文明摇篮之一。也门是世界上经济最不发达的国家之一，粮食不能自给，约1/2依靠进口。在夏季有着沙漠中常见的沙尘暴，而因过度放牧，沙漠化日渐严重。该国的棉花质量良好，每年有大量出口，咖啡种植面积也很大，占重要地位。近年，政府致力于减少预算赤字和政府开支，努力控制通货膨胀，稳定物价。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">92</field>
+		<field name="continent_id">1</field>
+		<field name="name">Bhutan</field>
+		<field name="lower_name">kingdom of bhutan</field>
+		<field name="country_code">BTN</field>
+		<field name="full_name">Kingdom of Bhutan</field>
+		<field name="cname">不丹</field>
+		<field name="full_cname">不丹王国</field>
+		<field name="remark">不丹自8世纪即为吐蕃一个部落，9世纪，不丹为独立部落。1772年，英国侵犯不丹。1865年11月，英国同不丹签订了《辛楚拉条约》，强迫不丹割让包括噶伦堡在内的第斯泰河以东约2000平方公里的地区。1907年建立不丹王国，乌颜·旺楚克成为世袭国王。1910年1月，英国和不丹又签订了《普那卡条约》，规定不丹对外关系接受英国的“指导”，1949年8月，印度和不丹签订《永久和平与友好条约》，规定不丹对外关系接受印度的“指导”。1971年成为联合国成员国。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">93</field>
+		<field name="continent_id">1</field>
+		<field name="name">Cambodia</field>
+		<field name="lower_name">kingdom of cambodia</field>
+		<field name="country_code">KHM</field>
+		<field name="full_name">Kingdom of Cambodia</field>
+		<field name="cname">柬埔寨</field>
+		<field name="full_cname">柬埔寨王国</field>
+		<field name="remark">柬埔寨全名柬埔寨王国（Kingdom of Cambodia）[1]  ，通称柬埔寨，旧称高棉，位于中南半岛，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部则面向暹罗湾。柬埔寨领土为碟状盆地，三面被丘陵与山脉环绕，中部为广阔而富庶的平原，占全国面积四分之三以上。境内有湄公河和东南亚最大的淡水湖－洞里萨湖（又称金边湖），首都金边。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">94</field>
+		<field name="continent_id">1</field>
+		<field name="name">Pakistan</field>
+		<field name="lower_name">the islamic republic of pakistan</field>
+		<field name="country_code">PAK</field>
+		<field name="full_name">the Islamic Republic of Pakistan</field>
+		<field name="cname">巴基斯坦</field>
+		<field name="full_cname">巴基斯坦伊斯兰共和国</field>
+		<field name="remark">巴基斯坦位于南亚次大陆西北部，南濒阿拉伯海，东接印度，东北邻中国，西北与阿富汗交界，西邻伊朗。海岸线长980公里。南部属热带气候，其余属亚热带气候。首都伊斯兰堡，前首都卡拉奇是最大城市。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">95</field>
+		<field name="continent_id">1</field>
+		<field name="name">Bangladesh</field>
+		<field name="lower_name">people's republic of bangladesh</field>
+		<field name="country_code">BGD</field>
+		<field name="full_name">People's Republic of Bangladesh</field>
+		<field name="cname">孟加拉国</field>
+		<field name="full_cname">孟加拉人民共和国</field>
+		<field name="remark">孟加拉族是南亚次大陆古老民族之一。孟加拉地区的最早居民是亚澳人。1757年，孟加拉国沦为英属印度的一个省，1947年印巴分治后，归属巴基斯坦，被称为东巴基斯坦。1971年，脱离巴基斯坦而独立。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">96</field>
+		<field name="continent_id">1</field>
+		<field name="name">Saudi Arabia</field>
+		<field name="lower_name">kingdom of saudi arabia</field>
+		<field name="country_code">SAU</field>
+		<field name="full_name">Kingdom of Saudi Arabia</field>
+		<field name="cname">沙特阿拉伯</field>
+		<field name="full_cname">沙特阿拉伯王国</field>
+		<field name="remark">沙特是名副其实的“石油王国”，石油储量和产量均居世界首位，使其成为世界上最富裕的国家之一。[1]  沙特是世界上最大的淡化海水生产国，其海水淡化量占世界总量的21%左右。沙特实行自由经济政策。麦加是伊斯兰教创建人穆罕默德的诞生地，是伊斯兰教徒朝觐圣地。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">97</field>
+		<field name="continent_id">1</field>
+		<field name="name">Turkmenistan</field>
+		<field name="lower_name">turkmenistan</field>
+		<field name="country_code">TKM</field>
+		<field name="full_name">Turkmenistan</field>
+		<field name="cname">土库曼斯坦</field>
+		<field name="full_cname">土库曼斯坦</field>
+		<field name="remark">土库曼斯坦（英语：Turkmenistan）是一个中亚国家，曾是前苏联加盟共和国之一，苏联时期的名称为土库曼苏维埃社会主义共和国，1991年独立。该国位于伊朗以北，东南面和阿富汗接壤、东北面与乌兹别克斯坦为邻、西北面是哈萨克斯坦，西邻里海，是一个内陆国家。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">98</field>
+		<field name="continent_id">1</field>
+		<field name="name">Qatar</field>
+		<field name="lower_name">the state of qatar</field>
+		<field name="country_code">QAT</field>
+		<field name="full_name">The State of Qatar</field>
+		<field name="cname">卡塔尔</field>
+		<field name="full_cname">卡塔尔国</field>
+		<field name="remark">卡塔尔拥有相当丰富的石油和天然气资源，天然气的总储量为全世界第三名。20世纪40年代，石油储量的发现，完全改变了整个国家的经济。拥有很高的生活水准，有许多提供给国民的社会福利，例如免费的医疗服务。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">99</field>
+		<field name="continent_id">1</field>
+		<field name="name">Nepal</field>
+		<field name="lower_name">federal democratic republic of nepal</field>
+		<field name="country_code">NPL</field>
+		<field name="full_name">Federal Democratic Republic of Nepal</field>
+		<field name="cname">尼泊尔</field>
+		<field name="full_cname">尼泊尔联邦民主共和国</field>
+		<field name="remark">尼泊尔联邦民主共和国（Federal Democratic Republic of Nepal），简称尼泊尔，为南亚山区内陆国家，是世界三大宗教之一佛教的发源地，位于喜马拉雅山脉南麓，北与中华人民共和国西藏自治区相接，东与印度共和国锡金邦为邻，西部和南部与印度共和国西孟加拉邦、比哈尔邦、北方邦和北阿坎德邦接壤。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">100</field>
+		<field name="continent_id">1</field>
+		<field name="name">Kazakhstan</field>
+		<field name="lower_name">the republic of kazakhstan</field>
+		<field name="country_code">KAZ</field>
+		<field name="full_name">The Republic of Kazakhstan</field>
+		<field name="cname">哈萨克斯坦</field>
+		<field name="full_cname">哈萨克斯坦共和国</field>
+		<field name="remark">哈萨克斯坦原为苏联加盟共和国之一，在1991年12月16日宣布独立。与俄罗斯、中国、吉尔吉斯斯坦、乌兹别克斯坦、土库曼斯坦等国接壤，并与伊朗、阿塞拜疆隔里海相望，国土面积排名世界第九位。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">101</field>
+		<field name="continent_id">1</field>
+		<field name="name">Philippines</field>
+		<field name="lower_name">republic of the philippines</field>
+		<field name="country_code">PHL</field>
+		<field name="full_name">Republic of the Philippines</field>
+		<field name="cname">菲律宾</field>
+		<field name="full_cname">菲律宾共和国</field>
+		<field name="remark">菲律宾人的祖先是亚洲大陆的移民。在14世纪前后，建立了海上强国苏禄王国。1565年，西班牙侵占菲律宾，统治菲300多年。1898年美国占领菲律宾。1942年，日本占领菲律宾。二战后，菲重新沦为美国殖民地。1946年，菲律宾独立</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">102</field>
+		<field name="continent_id">1</field>
+		<field name="name">Taiwan</field>
+		<field name="lower_name">taiwan</field>
+		<field name="country_code">TWN</field>
+		<field name="full_name">Taiwan</field>
+		<field name="cname">中国台湾</field>
+		<field name="full_cname">中国台湾</field>
+		<field name="remark">台湾（Taiwan）位于中国大陆东南沿海的大陆架上，东临太平洋，[1]  东北邻琉球群岛，[2]  南界巴士海峡与菲律宾群岛相对，[3]  西隔台湾海峡与福建省相望，[4-5]  总面积约3.6万平方千米，包括台湾岛及兰屿、绿岛、钓鱼岛等21个附属岛屿和澎湖列岛64个岛屿。台湾岛面积35882.6258平方千米，[6]  是中国第一大岛，[7]  7成为山地与丘陵，平原主要集中于西部沿海，地形海拔变化大。由于地处热带及亚热带气候之交界，自然景观与生态资源丰富多元。人口约2350万，逾7成集中于西部5大都会区，[8]  其中以首要都市台北为中心的台北都会区最大。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">103</field>
+		<field name="continent_id">1</field>
+		<field name="name">China</field>
+		<field name="lower_name">people's republic of china</field>
+		<field name="country_code">CHN</field>
+		<field name="full_name">People's Republic of China</field>
+		<field name="cname">中国</field>
+		<field name="full_cname">中华人民共和国</field>
+		<field name="remark">中国是四大文明古国之一，[18-19]  有着悠久的历史文化，是世界国土面积第三大的国家，[20-21]  世界第一大人口国，与英、法、美、俄并为联合国安理会五大常任理事国。中国是世界第二大经济体，[22-23]  世界第一贸易大国，[24]  世界第一大外汇储备国，[25]  世界第一大钢铁生产国和世界第一大农业国，[26-27]  世界第一大粮食总产量国以及世界上经济成长最快的国家之一。[28-29]  第二大吸引外资国，[30]  还是世界许多国际组织的重要成员，[31]  被认为是潜在超级大国之一。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">104</field>
+		<field name="continent_id">1</field>
+		<field name="name">Iran</field>
+		<field name="lower_name">the islamic republic of iran</field>
+		<field name="country_code">IRN</field>
+		<field name="full_name">The Islamic Republic of Iran</field>
+		<field name="cname">伊朗</field>
+		<field name="full_cname">伊朗伊斯兰共和国</field>
+		<field name="remark">伊朗是亚洲主要经济体之一，经济实力较强。伊朗经济以石油开采业为主，为世界石油天然气大国，地处世界石油天然气最丰富的中东地区，石油出口是经济命脉，石油生产能力和石油出口量分别位于世界第四位和第二位，是石油输出国组织成员。伊朗的石油化工、钢铁、汽车制造业发达，还有电子工业、核工业、计算机软硬件业。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">105</field>
+		<field name="continent_id">6</field>
+		<field name="name">Costa Rica</field>
+		<field name="lower_name">republic of costa rica</field>
+		<field name="country_code">CRI</field>
+		<field name="full_name">Republic of Costa Rica</field>
+		<field name="cname">哥斯达黎加</field>
+		<field name="full_cname">哥斯达黎加共和国</field>
+		<field name="remark">哥斯达黎加是拉丁美洲的一个共和国，北邻尼加拉瓜，南与巴拿马接壤，1983年11月17日宣布成为永久中立国，根据宪法，哥斯达黎加没有军队，只有警察和安全部队维护内部安全。是世界上第一个不设军队的国家</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">106</field>
+		<field name="continent_id">6</field>
+		<field name="name">Cuba</field>
+		<field name="lower_name">the republic of cuba</field>
+		<field name="country_code">CUB</field>
+		<field name="full_name">The Republic of Cuba</field>
+		<field name="cname">古巴</field>
+		<field name="full_cname">古巴共和国</field>
+		<field name="remark">古巴是北美洲加勒比海北部的群岛国家，哈瓦那是古巴的经济、政治中心和首都。
+古巴是现存世界为数不多的5个社会主义国家（中国、朝鲜、古巴、越南、老挝）之一，而且是美洲唯一的社会主义国家。[1]  在历史上以上世纪60年代的猪湾事件和古巴导弹危机闻名。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">107</field>
+		<field name="continent_id">6</field>
+		<field name="name">Dominican</field>
+		<field name="lower_name">the dominican republic</field>
+		<field name="country_code">DOM</field>
+		<field name="full_name">The Dominican Republic</field>
+		<field name="cname">多米尼加</field>
+		<field name="full_cname">多米尼加共和国</field>
+		<field name="remark">多米尼加共和国（英语：The Dominican Republic；西班牙语：La República Dominicana）。国名意为“星期天、休息日”。旧说哥伦布于15世纪末的一个星期日到此，故名多米尼加，首都圣多明各。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">108</field>
+		<field name="continent_id">6</field>
+		<field name="name">Mexico</field>
+		<field name="lower_name">the united states of mexico</field>
+		<field name="country_code">MEX</field>
+		<field name="full_name">The United States of Mexico</field>
+		<field name="cname">墨西哥</field>
+		<field name="full_cname">墨西哥合众国</field>
+		<field name="remark">墨西哥是一个自由市场经济体，拥有现代化的工业与农业，私有经济比重也在大幅提升。1994年北美自由贸易区正式建立后，墨西哥与美国的贸易和投资往来增加很快，极大地促进了经济发展和国民收入提高。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">109</field>
+		<field name="continent_id">6</field>
+		<field name="name">Nicaragua</field>
+		<field name="lower_name">the republic of nicaragua</field>
+		<field name="country_code">NIC</field>
+		<field name="full_name">The Republic of Nicaragua</field>
+		<field name="cname">尼加拉瓜</field>
+		<field name="full_cname">尼加拉瓜共和国</field>
+		<field name="remark">尼加拉瓜，全称尼加拉瓜共和国（英文：The Republic of Nicaragua），是一个总统共和制的国家，位于中美洲中部，北接洪都拉斯，南连哥斯达黎加，东临加勒比海，西濒太平洋，尼加拉瓜湖为中美洲最大的湖泊，首都为马那瓜。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">110</field>
+		<field name="continent_id">6</field>
+		<field name="name">Panama</field>
+		<field name="lower_name">the republic of panama</field>
+		<field name="country_code">PAN</field>
+		<field name="full_name">The Republic of Panama</field>
+		<field name="cname">巴拿马</field>
+		<field name="full_cname">巴拿马共和国</field>
+		<field name="remark">1501年，巴拿马沦为西班牙殖民地。1903年11月3日，成立巴拿马共和国。巴拿马中央连接大西洋与太平洋的巴拿马运河，拥有重要的战略地位，是南、北美洲的分界线。1999年12月31日美国将巴拿马运河所有土地、建筑、基础设施和所有的管理权都交还给巴拿马。鉴于重要的地理位置，巴拿马经济的重点是服务业，以金融、贸易和旅游业为主。金融业和转口贸易发达，并在经济中占重要地位。[1-2] </field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">111</field>
+		<field name="continent_id">7</field>
+		<field name="name">Netherlands Antilles</field>
+		<field name="lower_name">netherlands antilles</field>
+		<field name="country_code">ANT</field>
+		<field name="full_name">Netherlands Antilles</field>
+		<field name="cname">荷属安地列斯群岛</field>
+		<field name="full_cname">荷属安地列斯群岛</field>
+		<field name="remark">荷属安的列斯群岛（荷兰语：Netherlands Antilles） 加勒比海小安地列斯群岛的5个岛屿。1954年起成为荷兰的自治领地。由相隔遥远的南北两组岛屿组成︰北组位于小安地列斯群岛北端，包括圣尤斯特歇斯(Sint Eustatius)岛，圣马丁（荷兰语作圣马尔滕〔Sint Maarten〕)岛南部和萨巴(Saba)岛；南组距委内瑞拉海岸97公里(60哩），包括博奈尔(Bonaire)和库拉索(Curacao)二岛(1986年以前尚包括阿鲁巴〔Aruba〕岛)。</field>
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">112</field>
+		<field name="continent_id">6</field>
+		<field name="name">El Salvador</field>
+		<field name="lower_name">the republic of el salvador</field>
+		<field name="country_code">SLV</field>
+		<field name="full_name">The Republic of El Salvador</field>
+		<field name="cname">萨尔瓦多</field>
+		<field name="full_cname">萨尔瓦多共和国</field>
+		<field name="remark">萨尔瓦多，全称萨尔瓦多共和国（英语：The Republic of El Salvador，西班牙语：República de El Salvador）是位于中美洲北部的一个沿海国家，也是中美洲人口最密集的国家。萨尔瓦多毗邻太平洋，国土面积20720平方千米，下设14个省。2013年，该国总人口630万</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">114</field>
+		<field name="continent_id">6</field>
+		<field name="name">Puerto Rico</field>
+		<field name="lower_name">the commonwealth of puerto rico</field>
+		<field name="country_code">PTR</field>
+		<field name="full_name">The Commonwealth of Puerto Rico</field>
+		<field name="cname">波多黎各</field>
+		<field name="full_cname">波多黎各自由邦</field>
+		<field name="remark">波多黎各自治邦（英语：The Commonwealth of Puerto Rico，西班牙语：Estado Libre Asociado de Puerto Rico）位于加勒比海的大安的列斯群岛东部。包括波多黎各岛及别克斯、库莱夫拉等小岛。北临大西洋，南濒加勒比海、东与美属、英属维尔京群岛隔水相望，西隔莫纳海峡同多米尼加共和国为邻。首府为圣胡安。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">118</field>
+		<field name="continent_id">6</field>
+		<field name="name">Saint Vincent and the Grenadines</field>
+		<field name="lower_name">saint vincent and the grenadines</field>
+		<field name="country_code">VAG</field>
+		<field name="full_name">Saint Vincent and the Grenadines</field>
+		<field name="cname">圣文森特和格纳丁斯</field>
+		<field name="full_cname">圣文森特和格林纳丁斯</field>
+		<field name="remark">圣文森特和格林纳丁斯是位于东加勒比海小安的列斯群岛南部的一个岛国。面积389平方公里，人口11万，主要为黑人和黑白混血种人。圣文森特本岛面积346平方公里，格林纳丁斯群岛则由三十二个小岛组成，面积合共43平方公里。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">121</field>
+		<field name="continent_id">6</field>
+		<field name="name">Honduras</field>
+		<field name="lower_name">republic of honduras</field>
+		<field name="country_code">HND</field>
+		<field name="full_name">Republic of Honduras</field>
+		<field name="cname">洪都拉斯</field>
+		<field name="full_cname">洪都拉斯共和国</field>
+		<field name="remark">洪都拉斯，全称洪都拉斯共和国（西班牙语：República de Honduras），是中北美洲的一个多山国家，与危地马拉、萨尔瓦多和尼加拉瓜接壤，位于太平洋和加勒比海之间，有海岸线。</field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">122</field>
+		<field name="continent_id">6</field>
+		<field name="name">Guatemala</field>
+		<field name="lower_name">the republic of guatemala</field>
+		<field name="country_code">GTM</field>
+		<field name="full_name">The Republic of Guatemala</field>
+		<field name="cname">危地马拉</field>
+		<field name="full_cname">危地马拉共和国</field>
+		<field name="remark">危地马拉共和国（西班牙语：República de Guatemala），是中美洲的一个总统共和制国家，位于北美洲大陆的南部。西滨太平洋，东临加勒比海，向北与墨西哥相接，向东北邻伯利兹，向东南邻洪都拉斯和萨尔瓦多，全国总面积108889平方公里。[1] </field>
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">123</field>
+		<field name="continent_id">2</field>
+		<field name="name">Georgia</field>
+		<field name="lower_name">georgia</field>
+		<field name="country_code">GEO</field>
+		<field name="full_name">Georgia</field>
+		<field name="cname">格鲁吉亚</field>
+		<field name="full_cname">格鲁吉亚</field>
+		<field name="remark">格鲁吉亚（英语：Georgia，格鲁吉亚语：საქართველო，罗马化：Sakartvelo）位于亚洲西南部高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">124</field>
+		<field name="continent_id">2</field>
+		<field name="name">Armenia</field>
+		<field name="lower_name">the republic of armenia</field>
+		<field name="country_code">ARM</field>
+		<field name="full_name">The Republic of Armenia</field>
+		<field name="cname">亚美尼亚</field>
+		<field name="full_cname">亚美尼亚共和国</field>
+		<field name="remark">亚美尼亚共和国（英语：Republic of Armenia），简称亚美尼亚。是一个位于欧亚交界高加索地区的国家，也是在苏联解体之后独立的众多共和国之一，首都为埃里温。亚美尼亚族占93.3%，其他有俄罗斯人、乌克兰人、库尔德人、亚述人、希腊人等。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">125</field>
+		<field name="continent_id">2</field>
+		<field name="name">Azerbaijan</field>
+		<field name="lower_name">the republic of azerbaijan</field>
+		<field name="country_code">AZE</field>
+		<field name="full_name">The Republic of Azerbaijan</field>
+		<field name="cname">阿塞拜疆</field>
+		<field name="full_cname">阿塞拜疆共和国</field>
+		<field name="remark">阿塞拜疆共和国（阿塞拜疆语：Azərbaycan Respublikası）简称阿塞拜疆（英语发音：/ˌæzərbaɪˈdʒɑːn/ AZ-ər-by-JAHN; 阿塞拜疆语：Azərbaycan），国名意为“火的国家”，是东欧和西亚的“十字路口”。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">126</field>
+		<field name="continent_id">2</field>
+		<field name="name"> Belarus</field>
+		<field name="lower_name">the republic of belarus</field>
+		<field name="country_code">BLR</field>
+		<field name="full_name">The Republic of Belarus</field>
+		<field name="cname">白俄罗斯</field>
+		<field name="full_cname">白俄罗斯共和国</field>
+		<field name="remark">白俄罗斯全称白俄罗斯共和国（白俄罗斯语：Рэспубліка Беларусь，英语：The Republic of Belarus）是位于东欧平原的内陆国家，东北部与俄罗斯联邦为邻，南与乌克兰接壤，西同波兰相连，西北部与立陶宛和拉脱维亚毗邻。首都明斯克。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">127</field>
+		<field name="continent_id">2</field>
+		<field name="name">Russia</field>
+		<field name="lower_name">russian federation</field>
+		<field name="country_code">RUS</field>
+		<field name="full_name">Russian Federation</field>
+		<field name="cname">俄罗斯联邦</field>
+		<field name="full_cname">俄罗斯联邦</field>
+		<field name="remark">俄罗斯联邦（俄语：Российская Федерация，英语：The Russian Federation），通称俄罗斯（俄国为俄罗斯帝国的简称），是由22个自治共和国、46个州、9个边疆区、4个自治区、1个自治州、3个联邦直辖市组成的联邦共和立宪制国家。[1]  国旗为白、蓝、红三色旗。国徽主体为双头鹰图案。俄罗斯位于欧亚大陆北部，地跨欧亚两大洲，国土面积为1707.54万平方公里，是世界上面积最大的国家。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">128</field>
+		<field name="continent_id">2</field>
+		<field name="name">Ukraine</field>
+		<field name="lower_name">ukraine</field>
+		<field name="country_code">UKR</field>
+		<field name="full_name">Ukraine</field>
+		<field name="cname">乌克兰</field>
+		<field name="full_cname">乌克兰</field>
+		<field name="remark">乌克兰（乌克兰文：УКРАЇНА）位于欧洲东部，是欧洲除俄罗斯外领土面积最大的国家。乌克兰是原苏联15个加盟共和国之一，是次于俄罗斯第二大加盟共和国。1991年苏联解体后，乌克兰独立。
+</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">129</field>
+		<field name="continent_id">2</field>
+		<field name="name">Hungary</field>
+		<field name="lower_name">hungary</field>
+		<field name="country_code">HUN</field>
+		<field name="full_name">Hungary</field>
+		<field name="cname">匈牙利</field>
+		<field name="full_cname">匈牙利</field>
+		<field name="remark">匈牙利（匈牙利文：Magyarország）是一个位于欧洲中部的内陆国家，与奥地利、斯洛伐克、乌克兰、罗马尼亚、塞尔维亚、克罗地亚和斯洛文尼亚接壤，截止2014年1月，全国总人口987.9万人，首都为布达佩斯。官方语言为匈牙利语，这是欧洲最广泛使用的非印欧语系语言。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">130</field>
+		<field name="continent_id">2</field>
+		<field name="name">Iceland</field>
+		<field name="lower_name">the republic of iceland</field>
+		<field name="country_code">ISL</field>
+		<field name="full_name">The Republic of Iceland</field>
+		<field name="cname">冰岛</field>
+		<field name="full_cname">冰岛共和国</field>
+		<field name="remark">冰岛共和国（冰岛语：Ísland），简称冰岛，是北大西洋中的一个岛国，位于大西洋和北冰洋的交汇处，北欧五国之一，国土面积为10.3万平方千米，人口约为32万，是欧洲人口密度最小的国家。首都是雷克雅未克，也是冰岛的最大城市，首都附近的西南地区人口占全国的三分之二。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">131</field>
+		<field name="continent_id">2</field>
+		<field name="name">Malta</field>
+		<field name="lower_name">republic of malta</field>
+		<field name="country_code">MLT</field>
+		<field name="full_name">Republic of Malta</field>
+		<field name="cname">马耳他</field>
+		<field name="full_cname">马耳他共和国</field>
+		<field name="remark">马耳他[1]  是位于地中海中部的岛国，有“地中海心脏”之称，是欧洲最著名的休闲度假地；他是欧亚非海运交通的枢纽。由于重要战略位置，马耳他在历史上曾为多个民族占领。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">132</field>
+		<field name="continent_id">2</field>
+		<field name="name">Monaco</field>
+		<field name="lower_name">the principality of monaco</field>
+		<field name="country_code">MCO</field>
+		<field name="full_name">The Principality of Monaco</field>
+		<field name="cname">摩纳哥</field>
+		<field name="full_cname">摩纳哥公国</field>
+		<field name="remark">摩纳哥公国（法语：Principauté de Monaco，英语：The Principality of Monaco）是位于欧洲的一个城邦国家，是欧洲两个公国之一（另一个是列支敦士登），也是世界第二小的国家（面积最小的是梵蒂冈），总面积为1.98平方公里。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">133</field>
+		<field name="continent_id">2</field>
+		<field name="name">Norway</field>
+		<field name="lower_name">the kingdom of norway</field>
+		<field name="country_code">NOR</field>
+		<field name="full_name">The Kingdom of Norway</field>
+		<field name="cname">挪威</field>
+		<field name="full_cname">挪威王国</field>
+		<field name="remark">挪威（挪威语：Norge 或Noreg），全称为挪威王国（挪威语：Kongeriket Norge或 Kongeriket Noreg）。 意为“通往北方之路”，北欧五国之一，位于斯堪的纳维亚半岛西部。挪威领土南北狭长，海岸线漫长曲折，沿海岛屿很多，被称为“万岛之国”，领土与瑞典、芬兰、俄罗斯接壤，领土还包括斯瓦尔巴群岛和扬马延岛。首都为奥斯陆。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">134</field>
+		<field name="continent_id">2</field>
+		<field name="name">Romania</field>
+		<field name="lower_name">romania</field>
+		<field name="country_code">ROM</field>
+		<field name="full_name">Romania</field>
+		<field name="cname">罗马尼亚</field>
+		<field name="full_cname">罗马尼亚</field>
+		<field name="remark">罗马尼亚（罗马尼亚语：Lomânia）位于东南欧巴尔干半岛东北部。北和东北分别与乌克兰和摩尔多瓦为邻，南接保加利亚，西南和西北分别与塞尔维亚和匈牙利接壤，东南临黑海。面积238391平方公里，人口1994万（2014年12月）。首都布加勒斯特。[</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">135</field>
+		<field name="continent_id">2</field>
+		<field name="name">San Marino</field>
+		<field name="lower_name">the republic of san marino</field>
+		<field name="country_code">SMR</field>
+		<field name="full_name">The Republic of San Marino</field>
+		<field name="cname">圣马力诺</field>
+		<field name="full_cname">圣马力诺共和国</field>
+		<field name="remark">圣马力诺共和国（意大利语：Repubblica di San Marino）是世界上袖珍国家之一，位于欧洲南部，意大利半岛东部，整个国家被意大利包围，是一个国中国。地形以中部的蒂塔诺山（海拔738米）为主体，丘陵由此向西南延展，东北部为平原，有圣马力诺河、马拉诺河等流经。属亚热带地中海式气候，总面积61.2平方公里，是欧洲第三小国</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">136</field>
+		<field name="continent_id">2</field>
+		<field name="name">Sweden</field>
+		<field name="lower_name">the kingdom of sweden</field>
+		<field name="country_code">SWE</field>
+		<field name="full_name">The Kingdom of Sweden</field>
+		<field name="cname">瑞典</field>
+		<field name="full_cname">瑞典王国</field>
+		<field name="remark">瑞典（瑞典语：Sverige），全称瑞典王国(瑞典语：Konungariket Sverige)，是一个位于斯堪的纳维亚半岛的国家，北欧五国之一，首都为斯德哥尔摩。它西邻挪威，东北与芬兰接壤，西南濒临斯卡格拉克海峡和卡特加特海峡，东边为波罗的海与波的尼亚湾。瑞典与丹麦、德国、波兰、俄罗斯、立陶宛、拉脱维亚和爱沙尼亚隔海相望，海岸线长7624千米，总面积约45万平方公里，是北欧最大的国家。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">137</field>
+		<field name="continent_id">2</field>
+		<field name="name">Switzerland</field>
+		<field name="lower_name">swiss confederation</field>
+		<field name="country_code">CHE</field>
+		<field name="full_name">Swiss Confederation</field>
+		<field name="cname">瑞士</field>
+		<field name="full_cname">瑞士联邦</field>
+		<field name="remark">瑞士，全称瑞士联邦（德语：Schweizerische Eidgenossenschaft 法语：Confédération suisse 意大利语：Confederazione Svizzera 罗曼什语：Confederaziun svizra），为中欧国家之一，划分为26个州。瑞士北邻德国，西邻法国，南邻意大利，东邻奥地利和列支敦士登。全境以高原和山地为主，有“欧洲屋脊”之称。
+</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">138</field>
+		<field name="continent_id">2</field>
+		<field name="name">Estonia</field>
+		<field name="lower_name">republic of estonia</field>
+		<field name="country_code">EST</field>
+		<field name="full_name">Republic of Estonia</field>
+		<field name="cname">爱沙尼亚</field>
+		<field name="full_cname">爱沙尼亚共和国</field>
+		<field name="remark">爱沙尼亚共和国是东欧波罗的海三国之一，波罗的海东岸，芬兰湾南岸，西南濒里加湾，南面和东面分别同拉脱维亚和俄罗斯接壤。1991年，继立陶宛独立后，宣布独立，首都为塔林。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">139</field>
+		<field name="continent_id">2</field>
+		<field name="name">Latvia</field>
+		<field name="lower_name">republic of latvia</field>
+		<field name="country_code">LVA</field>
+		<field name="full_name">Republic of Latvia</field>
+		<field name="cname">拉脱维亚</field>
+		<field name="full_cname">拉脱维亚共和国</field>
+		<field name="remark">拉脱维亚共和国（拉脱维亚语：Latvijas Republika）。国名源自民族语，意为“铠甲”、“金属制的服装”，是一个位于欧洲东北部的议会共和制国家。西邻波罗的海，与在其北方的爱沙尼亚及在其南方的立陶宛共同称为波罗的海三国。东与俄罗斯、白俄罗斯二国相邻，全国总面积64589平方公里</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">140</field>
+		<field name="continent_id">2</field>
+		<field name="name">Lithuania</field>
+		<field name="lower_name">the republic of lithuania</field>
+		<field name="country_code">LTU</field>
+		<field name="full_name">The Republic of Lithuania</field>
+		<field name="cname">立陶宛</field>
+		<field name="full_cname">立陶宛共和国</field>
+		<field name="remark">立陶宛全称：立陶宛共和国（立陶宛语：Lietuvos Respublika，英语：Republic of Lithuania）。位于波罗的海东岸，北界拉脱维亚，东南邻白俄罗斯，西南是俄罗斯的加里宁格勒州和波兰，首都维尔纽斯。
+</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">141</field>
+		<field name="continent_id">2</field>
+		<field name="name">Moldavia</field>
+		<field name="lower_name">the republic of moldova</field>
+		<field name="country_code">MDA</field>
+		<field name="full_name">The Republic of Moldova</field>
+		<field name="cname">摩尔多瓦</field>
+		<field name="full_cname">摩尔多瓦共和国</field>
+		<field name="remark">摩尔多瓦共和国（英文：The Republic of Moldova）是位于东南欧的内陆国，与罗马尼亚和乌克兰接壤，首都基希讷乌。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">142</field>
+		<field name="continent_id">1</field>
+		<field name="name">Turkey</field>
+		<field name="lower_name">the republic of turkey</field>
+		<field name="country_code">TUR</field>
+		<field name="full_name">The Republic of Turkey</field>
+		<field name="cname">土耳其</field>
+		<field name="full_cname">土耳其共和国</field>
+		<field name="remark">土耳其共和国（土耳其文：Türkiye Cumhuriyeti，英语：The Republic of Turkey）是一个横跨欧亚两洲的国家，北临黑海，南临地中海，东南与叙利亚、伊拉克接壤，西临爱琴海，并与希腊以及保加利亚接壤，东部与格鲁吉亚、亚美尼亚、阿塞拜疆和伊朗接壤。土耳其地理位置和地缘政治战略意义极为重要，是连接欧亚的十字路口。</field>
+		<field name="continent">Asia</field>
+	</row>
+
+	<row>
+		<field name="id">143</field>
+		<field name="continent_id">2</field>
+		<field name="name">Slovenia</field>
+		<field name="lower_name">the republic of slovenia</field>
+		<field name="country_code">SVN</field>
+		<field name="full_name">The Republic of Slovenia</field>
+		<field name="cname">斯洛文尼亚</field>
+		<field name="full_cname">斯洛文尼亚共和国</field>
+		<field name="remark">斯洛文尼亚（斯洛文尼亚语：Slovenia）是欧洲的一个发达国家，全称为斯洛文尼亚共和国，是欧盟成员国、北约（NATO）成员国、经合组织（OECD）成员国、欧洲申根国，2008年上半年任欧盟轮值主席国。[1]  斯洛文尼亚在东南欧经济转型国家当中人均GDP名列第一，同时该国也是世界贸易组织的创始会员国之一。该国位于阿尔卑斯山脉南麓，西邻意大利，西南濒临亚得里亚海，东部和南部被克罗地亚包围，东北邻匈牙利，北邻奥地利。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">144</field>
+		<field name="continent_id">2</field>
+		<field name="name">Czech</field>
+		<field name="lower_name">the czech republic</field>
+		<field name="country_code">CZE</field>
+		<field name="full_name">The Czech Republic</field>
+		<field name="cname">捷克</field>
+		<field name="full_cname">捷克共和国</field>
+		<field name="remark">捷克全称：捷克共和国，是一个中欧地区的内陆国家，国土面积78866平方公里，原捷克斯洛伐克的西部，其前身为波希米亚王国和大摩拉维亚国，于1993年与斯洛伐克和平地分离。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">145</field>
+		<field name="continent_id">2</field>
+		<field name="name">Slovak</field>
+		<field name="lower_name">the slovak republic</field>
+		<field name="country_code">SVK</field>
+		<field name="full_name">The Slovak Republic</field>
+		<field name="cname">斯洛伐克</field>
+		<field name="full_cname">斯洛伐克共和国</field>
+		<field name="remark">斯洛伐克共和国，简称斯洛伐克，是中欧的一个内陆国家，西北临捷克，北临波兰，东临乌克兰，南临匈牙利，西南临奥地利，原捷克斯洛伐克的东部，自1993年1月1日起，斯洛伐克成为独立主权国家。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">146</field>
+		<field name="continent_id">2</field>
+		<field name="name">Macedonia Rep</field>
+		<field name="lower_name">the republic of macedonia</field>
+		<field name="country_code">MKD</field>
+		<field name="full_name">The Republic of Macedonia</field>
+		<field name="cname">马其顿</field>
+		<field name="full_cname">马其顿共和国</field>
+		<field name="remark">马其顿共和国（Република Македониа），位于欧洲东南部巴尔干半岛。而马其顿地区包括从前南斯拉夫独立出来的马其顿共和国、希腊北部的马其顿地区(包括中马其顿、西马其顿、东马其顿-色雷斯)，以及保加利亚的西南角。马其顿共和国的主体民族是斯拉夫人的一支，与古代大希腊的马其顿王国（全盛时期又称亚历山大帝国）无关。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">147</field>
+		<field name="continent_id">2</field>
+		<field name="name">Bosnia Hercegovina</field>
+		<field name="lower_name">bosnia and herzegovina</field>
+		<field name="country_code">BIH</field>
+		<field name="full_name">Bosnia and Herzegovina</field>
+		<field name="cname">波斯尼亚和黑塞哥维那</field>
+		<field name="full_cname">波斯尼亚和黑塞哥维那</field>
+		<field name="remark">波斯尼亚和黑塞哥维那位于原南斯拉夫中部，介于克罗地亚、塞尔维亚和黑山三个共和国之间，简称“波黑”，面积51129平方公里[1]  。1945年，南斯拉夫各族人民取得反法西斯战争胜利，成立南斯拉夫联邦人民共和国（1963年改称南斯拉夫社会主义联邦共和国），波黑成为其中的一员。首都萨拉热窝。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">148</field>
+		<field name="continent_id">2</field>
+		<field name="name">Vatican City State</field>
+		<field name="lower_name">vatican city state</field>
+		<field name="country_code">VAT</field>
+		<field name="full_name">Vatican City State</field>
+		<field name="cname">梵蒂冈城国</field>
+		<field name="full_cname">梵蒂冈城国</field>
+		<field name="remark">梵蒂冈城国（拉丁语：Status Civitatis Vaticanae；意大利语：Stato della Città del Vaticano），简称梵蒂冈或梵蒂冈城，是一个独立的主权国家，由于四面都与意大利接壤，故称“国中国”。同时也是全世界天主教的中心——以教宗为首的教廷的所在地，是世界六分之一人口的信仰中心。</field>
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">149</field>
+		<field name="continent_id">2</field>
+		<field name="name">Netherlands</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">NLD</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">荷兰</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">150</field>
+		<field name="continent_id">2</field>
+		<field name="name">Croatia Rep</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">HRV</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">克罗地亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">151</field>
+		<field name="continent_id">2</field>
+		<field name="name">Greece</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">GRC</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">希腊</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">152</field>
+		<field name="continent_id">2</field>
+		<field name="name">Ireland</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">IRL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">爱尔兰</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">153</field>
+		<field name="continent_id">2</field>
+		<field name="name">Belgium</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BEL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">比利时</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">154</field>
+		<field name="continent_id">2</field>
+		<field name="name">Cyprus</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">CYP</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">塞浦路斯</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">155</field>
+		<field name="continent_id">2</field>
+		<field name="name">Denmark</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">DNK</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">丹麦</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">156</field>
+		<field name="continent_id">2</field>
+		<field name="name">United Kingdom</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ENG</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">英国</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">157</field>
+		<field name="continent_id">2</field>
+		<field name="name">Germany</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">DEU</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">德国</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">158</field>
+		<field name="continent_id">2</field>
+		<field name="name">France</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">FRA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">法国</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">159</field>
+		<field name="continent_id">2</field>
+		<field name="name">Italy</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ITA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">意大利</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">160</field>
+		<field name="continent_id">2</field>
+		<field name="name">Luxembourg</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">LUX</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">卢森堡</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">161</field>
+		<field name="continent_id">2</field>
+		<field name="name">Portugal</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">PRT</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">葡萄牙</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">162</field>
+		<field name="continent_id">2</field>
+		<field name="name">Poland</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">POL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">波兰</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">163</field>
+		<field name="continent_id">2</field>
+		<field name="name">Spain</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ESP</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">西班牙</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">164</field>
+		<field name="continent_id">2</field>
+		<field name="name">Albania</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ALB</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">阿尔巴尼亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">165</field>
+		<field name="continent_id">2</field>
+		<field name="name">Andorra</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">AND</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">安道尔</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">166</field>
+		<field name="continent_id">2</field>
+		<field name="name">Liechtenstein</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">LIE</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">列支敦士登</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">167</field>
+		<field name="continent_id">2</field>
+		<field name="name">Serbia &amp; Montenegro</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">S&amp;M</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">塞黑</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">168</field>
+		<field name="continent_id">2</field>
+		<field name="name">Austria</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">AUT</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">奥地利</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">169</field>
+		<field name="continent_id">2</field>
+		<field name="name">Bulgaria</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BGR</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">保加利亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">170</field>
+		<field name="continent_id">2</field>
+		<field name="name">Finland</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">FIN</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">芬兰</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">171</field>
+		<field name="continent_id">2</field>
+		<field name="name">Gibraltar</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">GIB</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">直布罗陀</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Europe</field>
+	</row>
+
+	<row>
+		<field name="id">172</field>
+		<field name="continent_id">6</field>
+		<field name="name">Dominica</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">DMA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">多米尼克</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">173</field>
+		<field name="continent_id">6</field>
+		<field name="name">Bermuda</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BMU</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">百慕大</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">174</field>
+		<field name="continent_id">6</field>
+		<field name="name">Canada</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">CAN</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">加拿大</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">175</field>
+		<field name="continent_id">6</field>
+		<field name="name">United States</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">USA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">美国</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">176</field>
+		<field name="continent_id">6</field>
+		<field name="name">Greenland</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">GRL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">格陵兰</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">North America</field>
+	</row>
+
+	<row>
+		<field name="id">177</field>
+		<field name="continent_id">4</field>
+		<field name="name">Tonga</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">TON</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">汤加</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">178</field>
+		<field name="continent_id">4</field>
+		<field name="name">Australia</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">AUS</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">澳大利亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">179</field>
+		<field name="continent_id">4</field>
+		<field name="name">Cook Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">COK</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">库克群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">180</field>
+		<field name="continent_id">4</field>
+		<field name="name">Nauru</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">NRU</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">瑙鲁</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">181</field>
+		<field name="continent_id">4</field>
+		<field name="name">New Caledonia</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">NCL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">新喀里多尼亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">182</field>
+		<field name="continent_id">4</field>
+		<field name="name">Vanuatu</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">VUT</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">瓦努阿图</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">183</field>
+		<field name="continent_id">4</field>
+		<field name="name">Solomon Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">SLB</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">所罗门群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">184</field>
+		<field name="continent_id">4</field>
+		<field name="name">Samoa</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">WSM</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">萨摩亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">185</field>
+		<field name="continent_id">4</field>
+		<field name="name">Tuvalu</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">TUV</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">图瓦卢</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">186</field>
+		<field name="continent_id">4</field>
+		<field name="name">Micronesia Fs</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">FSM</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">密克罗尼西亚联邦</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">187</field>
+		<field name="continent_id">4</field>
+		<field name="name">Marshall Is Rep</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">MHL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">马绍尔群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">188</field>
+		<field name="continent_id">4</field>
+		<field name="name">Kiribati</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">KIR</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">基里巴斯</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">189</field>
+		<field name="continent_id">4</field>
+		<field name="name">French Polynesia</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">PYF</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">法属玻利尼西亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">190</field>
+		<field name="continent_id">4</field>
+		<field name="name">New Zealand</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">NZL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">新西兰</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">191</field>
+		<field name="continent_id">4</field>
+		<field name="name">Fiji</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">FJI</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">斐济</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">192</field>
+		<field name="continent_id">4</field>
+		<field name="name">Papua New Guinea</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">PNG</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">巴布亚新几内亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">193</field>
+		<field name="continent_id">4</field>
+		<field name="name">Palau</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">PLW</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">帕劳共和国</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">194</field>
+		<field name="continent_id">4</field>
+		<field name="name">Tuamotu Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">土阿莫土群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">195</field>
+		<field name="continent_id">4</field>
+		<field name="name">Tubai Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">土布艾群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">196</field>
+		<field name="continent_id">4</field>
+		<field name="name">Society Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">社会群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">197</field>
+		<field name="continent_id">4</field>
+		<field name="name">Marquesas Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">马克萨斯群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">198</field>
+		<field name="continent_id">4</field>
+		<field name="name">Wallis and Futuna</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">WLF</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">瓦利斯和浮图纳</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">199</field>
+		<field name="continent_id">4</field>
+		<field name="name">Gambier Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">盖比群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">200</field>
+		<field name="continent_id">4</field>
+		<field name="name">Norfolk Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">诺福克岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">Oceania</field>
+	</row>
+
+	<row>
+		<field name="id">201</field>
+		<field name="continent_id">7</field>
+		<field name="name">Chile</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">CHL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">智利</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">202</field>
+		<field name="continent_id">7</field>
+		<field name="name">Colombia</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">COL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">哥伦比亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">203</field>
+		<field name="continent_id">7</field>
+		<field name="name">French Guyana</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">GUF</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">法属圭亚那</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">204</field>
+		<field name="continent_id">7</field>
+		<field name="name">Guyana</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">GUY</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">圭亚那</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">205</field>
+		<field name="continent_id">7</field>
+		<field name="name">Curacao</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">库腊索岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">206</field>
+		<field name="continent_id">7</field>
+		<field name="name">Paraguay</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">PRY</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">巴拉圭</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">207</field>
+		<field name="continent_id">7</field>
+		<field name="name">Peru</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">PER</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">秘鲁</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">208</field>
+		<field name="continent_id">7</field>
+		<field name="name">Suriname</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">SUR</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">苏里南</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">209</field>
+		<field name="continent_id">7</field>
+		<field name="name">Venezuela</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">VEN</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">委内瑞拉</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">210</field>
+		<field name="continent_id">7</field>
+		<field name="name">Uruguay</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">URY</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">乌拉圭</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">211</field>
+		<field name="continent_id">7</field>
+		<field name="name">Ecuador</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ECU</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">厄瓜多尔</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">212</field>
+		<field name="continent_id">7</field>
+		<field name="name">Antigua &amp; Barbuda</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ATG</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">安提瓜和巴布达</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">213</field>
+		<field name="continent_id">7</field>
+		<field name="name">Aruba</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ABW</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">阿鲁巴岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">214</field>
+		<field name="continent_id">7</field>
+		<field name="name">Bahamas</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BHS</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">巴哈马</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">215</field>
+		<field name="continent_id">7</field>
+		<field name="name">Barbados</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BRB</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">巴巴多斯</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">216</field>
+		<field name="continent_id">7</field>
+		<field name="name">Cayman Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">CYM</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">开曼群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">217</field>
+		<field name="continent_id">7</field>
+		<field name="name">Grenada</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">GRD</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">格林纳达</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">218</field>
+		<field name="continent_id">7</field>
+		<field name="name">Saba</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">萨巴</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">219</field>
+		<field name="continent_id">7</field>
+		<field name="name">Haiti</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">HTI</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">海地</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">220</field>
+		<field name="continent_id">7</field>
+		<field name="name">Jamaica</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">JAM</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">牙买加</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">221</field>
+		<field name="continent_id">7</field>
+		<field name="name">Martinique</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">MTQ</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">马提尼克</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">222</field>
+		<field name="continent_id">7</field>
+		<field name="name">Montserrat</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">MSR</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">蒙特塞拉特</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">223</field>
+		<field name="continent_id">7</field>
+		<field name="name">Saint Vincent &amp; Grenadines</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">VCT</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">圣文森特和格林纳丁斯</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">224</field>
+		<field name="continent_id">7</field>
+		<field name="name">Trinidad &amp; Tobago</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">TTO</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">特立尼达和多巴哥</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">225</field>
+		<field name="continent_id">7</field>
+		<field name="name">Turks &amp; Caicos Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">TCA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">特克斯和凯科斯群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">226</field>
+		<field name="continent_id">7</field>
+		<field name="name">Br. Virgin Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">VGB</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">英属维尔京群岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">227</field>
+		<field name="continent_id">7</field>
+		<field name="name">St. Kitts-Nevis</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">KNA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">圣其茨-尼维斯</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">228</field>
+		<field name="continent_id">7</field>
+		<field name="name">Saint Martin Is</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">圣马丁岛</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">229</field>
+		<field name="continent_id">7</field>
+		<field name="name">St.Pierre and Miquelon</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">SPM</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">圣皮埃尔和密克隆</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">230</field>
+		<field name="continent_id">7</field>
+		<field name="name">Argentina</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">ARG</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">阿根廷</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">231</field>
+		<field name="continent_id">7</field>
+		<field name="name">Belize</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BLZ</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">伯利兹</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">232</field>
+		<field name="continent_id">7</field>
+		<field name="name">Bolivia</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BOL</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">玻利维亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">233</field>
+		<field name="continent_id">7</field>
+		<field name="name">Brazil</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">BRA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">巴西</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">234</field>
+		<field name="continent_id">7</field>
+		<field name="name">Bonaire</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code"></field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">博内尔</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+	<row>
+		<field name="id">235</field>
+		<field name="continent_id">7</field>
+		<field name="name">Saint Lucia</field>
+		<field name="lower_name" xsi:nil="true" />
+		<field name="country_code">LCA</field>
+		<field name="full_name" xsi:nil="true" />
+		<field name="cname">圣卢西亚</field>
+		<field name="full_cname" xsi:nil="true" />
+		<field name="remark" xsi:nil="true" />
+		<field name="continent">South America</field>
+	</row>
+
+</resultset>
